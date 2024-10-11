@@ -1,0 +1,39 @@
+.project-pages-failed-form {
+	display:none;
+}
+
+#project-pages-welcome-steps,
+#project-pages-bonus-steps {
+
+	.list-group-item .dashicons {
+		position: absolute;
+		font-size: 3em;
+		color: #9c9393;
+	}
+	.list-group-item .dashicons.success {
+    	color: #0bb50b;
+	}
+	.project-pages-step-info {
+	    margin-left: 3em;
+	    padding: 0.8em;
+	    padding-top: 0.3em;
+	}
+	.project-pages-step-desc,
+	.checkbox {
+		color: #6e77a9;
+	}
+
+	.checkbox {
+		font-size: 13px;
+	}
+	
+}
+
+#project-pages-suggest-down {
+
+	margin-bottom: 3em;
+
+	a {
+		text-decoration: none;
+	}
+}

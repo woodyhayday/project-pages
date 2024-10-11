@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "project-pages-blocks/breadcrumb",
+  "version": "0.1.0",
+  "title": "Breadcrumb (Project Pages)",
+  "category": "project-pages-blocks",
+  "icon": "networking",
+  "description": "Display a breadcrumb on Project Pages.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "color": false
+  },
+  "textdomain": "projectpages",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "none"
+    },
+    "showHomeLevel": {
+      "type": "boolean",
+      "default": false
+    },
+    "homeLabel": {
+      "type": "string",
+      "default": ""
+    },
+    "projectsLabel": {
+      "type": "string",
+      "default": "Projects"
+    },
+    "separator": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

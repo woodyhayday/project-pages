@@ -1,0 +1,93 @@
+@import 'ProjectPages.Alignment';
+@import 'ProjectPages.Buttons';
+@import 'ProjectPages.Cards';
+@import 'ProjectPages.ContentWrappers';
+@import 'ProjectPages.Embeds';
+@import 'ProjectPages.Gradients';
+@import 'ProjectPages.Ribbons.scss';
+@import 'ProjectPages.StatusIcons';
+
+@import 'ProjectPages.Breadcrumbs';
+@import 'ProjectPages.Hero';
+@import 'ProjectPages.Logs';
+@import 'ProjectPages.Timeline';
+
+
+@import 'ProjectPages.Archive';
+@import 'ProjectPages.Single';
+
+
+
+// modifies any card list wrapper, reducing X margins to allow more space for cards
+.project-pages-wrapper-card-list {
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+}
+
+// powered by
+.project-pages-power {
+
+	text-align: center;
+    margin-top: 1.5em;
+    font-size: 0.8em;
+
+	a {
+
+		text-decoration: none;
+    	font-weight: 500;
+		background: #FFF;
+		padding: 0.5em 0.3em;
+		border: 1px solid #CCC;
+		border-radius: 0.4em;
+
+		span {
+
+		    background: #000;
+		    color: #FFF;
+		    padding: 0.2em 0.3em;
+		    border-top-right-radius: 0.5em;
+
+		}
+
+	}
+
+	a:hover {
+
+		border: 1px solid #959393;
+
+	}
+	
+}
+
+// modifications to BS grid
+
+// specifically for archive grid page:
+.project-pages-bs-row {
+
+	    --bs-gutter-x: 0;
+
+}
+
+
+
+// image max width for non-wp imported images & video
+.project-pages-body img,
+.project-pages-body p img,
+.project-pages-body div img,
+.project-pages-body video,
+.project-pages-body p video,
+.project-pages-body div video {
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+// no projects msg
+.project-pages-4oh4 {
+
+	text-align: center;
+    margin: 2em;
+}

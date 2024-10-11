@@ -1,0 +1,1438 @@
+.whppMetaBox .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.whppMetaBox .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.whppMetaBox .form-control:-moz-placeholder {
+  color: #999;
+}
+
+.whppMetaBox .form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.whppMetaBox .form-control:-ms-input-placeholder {
+  color: #999;
+}
+
+.whppMetaBox .form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+.whppMetaBox .form-control[disabled],
+.whppMetaBox .form-control[readonly],
+.whppMetaBox fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eee;
+  opacity: 1;
+}
+
+.whppMetaBox textarea.form-control {
+  height: auto;
+}
+
+.whppMetaBox input[type=date] {
+  line-height: 34px;
+}
+
+.whppMetaBox .form-group {
+  margin-bottom: 15px;
+}
+
+.whppMetaBox .input-group-sm > .form-control,
+.whppMetaBox .input-group-sm > .input-group-addon,
+.whppMetaBox .input-group-sm > .input-group-btn > .btn,
+.whppMetaBox .input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.whppMetaBox .input-group-sm > .input-group-btn > select.btn,
+.whppMetaBox .input-group-sm > select.form-control,
+.whppMetaBox .input-group-sm > select.input-group-addon,
+.whppMetaBox select.input-sm {
+  height: 30px;
+  line-height: 30px;
+}
+
+.whppMetaBox .input-group-sm > .input-group-btn > select[multiple].btn,
+.whppMetaBox .input-group-sm > .input-group-btn > textarea.btn,
+.whppMetaBox .input-group-sm > select[multiple].form-control,
+.whppMetaBox .input-group-sm > select[multiple].input-group-addon,
+.whppMetaBox .input-group-sm > textarea.form-control,
+.whppMetaBox .input-group-sm > textarea.input-group-addon,
+.whppMetaBox select[multiple].input-sm,
+.whppMetaBox textarea.input-sm {
+  height: auto;
+}
+
+.whppMetaBox .input-group-lg > .form-control,
+.whppMetaBox .input-group-lg > .input-group-addon,
+.whppMetaBox .input-group-lg > .input-group-btn > .btn,
+.whppMetaBox .input-lg {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.whppMetaBox .input-group-lg > .input-group-btn > select.btn,
+.whppMetaBox .input-group-lg > select.form-control,
+.whppMetaBox .input-group-lg > select.input-group-addon,
+.whppMetaBox select.input-lg {
+  height: 46px;
+  line-height: 46px;
+}
+
+.whppMetaBox .input-group-lg > .input-group-btn > select[multiple].btn,
+.whppMetaBox .input-group-lg > .input-group-btn > textarea.btn,
+.whppMetaBox .input-group-lg > select[multiple].form-control,
+.whppMetaBox .input-group-lg > select[multiple].input-group-addon,
+.whppMetaBox .input-group-lg > textarea.form-control,
+.whppMetaBox .input-group-lg > textarea.input-group-addon,
+.whppMetaBox select[multiple].input-lg,
+.whppMetaBox textarea.input-lg {
+  height: auto;
+}
+
+.whppMetaBox tr.wh-large th {
+  text-align: right;
+}
+
+.whppMetaBox tr.wh-large label {
+  font-size: 1.2em;
+  color: #000;
+}
+
+.whppMetaBox tr.wh-large select,
+.whppMetaBox tr.wh-large input {
+  font-size: 1.2em;
+  height: 30px;
+}
+
+.whppMetaBox tr.wh-large select {
+  padding: 0 30px 0 10px;
+  line-height: 1;
+}
+
+.whppMetaBox tr.wh-large input {
+  padding: 4px 10px;
+}
+
+.whppMetaBox tr.wh-large th,
+.whppMetaBox tr.wh-large td {
+  padding: 6px 20px;
+  color: #304c69;
+}
+
+.whppMetaBox table.wh-metatab tr th label {
+  padding: 6px 20px;
+  color: #304c69;
+}
+
+.whppMetaBox table.wh-metatab tr.wh-large th label,
+.whppMetaBox table.wh-metatab tr.wh-large td label {
+  padding: 0;
+}
+
+.whppMetaBox table.wh-metatab {
+  min-width: 620px;
+}
+
+.whppMetaBox table.wh-metatab tr.wh-hr td {
+  padding: 0px 20px;
+}
+
+.whppMetaBox table.wh-metatab tr.wh-hr hr {
+  border-top: 1px solid #D4DBF0;
+  border-bottom: 0;
+}
+
+.whppMetaBox span.wh-info {
+  font-size: 12px;
+  padding: 4px 9px;
+  color: #000;
+  background: #CBE3EF;
+  border-radius: 3px;
+}
+
+.whppMetaBox .widetext {
+  width: 100%;
+}
+
+.whppMetaBox textarea.form-control {
+  width: 100%;
+  height: 120px;
+}
+
+#ProjectPagesAdminPage table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#ProjectPagesAdminPage table.wp-list-table {
+  border-collapse: inherit;
+  border-spacing: inherit;
+}
+
+#ProjectPagesAdminPage .table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#ProjectPagesAdminPage .table th,
+#ProjectPagesAdminPage .table td {
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  padding: 8px;
+}
+
+#ProjectPagesAdminPage .table th {
+  font-weight: 700;
+}
+
+#ProjectPagesAdminPage .table thead th {
+  vertical-align: bottom;
+}
+
+#ProjectPagesAdminPage .table tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+#ProjectPagesAdminPage .table-condensed th,
+#ProjectPagesAdminPage .table-condensed td {
+  padding: 4px 5px;
+}
+
+#ProjectPagesAdminPage .table-bordered {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#ProjectPagesAdminPage .table-bordered th,
+#ProjectPagesAdminPage .table-bordered td {
+  border-left: 1px solid #ddd;
+}
+
+#ProjectPagesAdminPage .table-bordered thead:first-child tr:first-child th:last-child,
+#ProjectPagesAdminPage .table-bordered tbody:first-child tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+#ProjectPagesAdminPage .table-bordered thead:last-child tr:last-child th:first-child,
+#ProjectPagesAdminPage .table-bordered tbody:last-child tr:last-child td:first-child,
+#ProjectPagesAdminPage .table-bordered tfoot:last-child tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 4px;
+  -moz-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+}
+
+#ProjectPagesAdminPage .table-bordered thead:last-child tr:last-child th:last-child,
+#ProjectPagesAdminPage .table-bordered tbody:last-child tr:last-child td:last-child,
+#ProjectPagesAdminPage .table-bordered tfoot:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+#ProjectPagesAdminPage .table-bordered caption + thead tr:first-child th:last-child,
+#ProjectPagesAdminPage .table-bordered caption + tbody tr:first-child td:last-child,
+#ProjectPagesAdminPage .table-bordered colgroup + thead tr:first-child th:last-child,
+#ProjectPagesAdminPage .table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+#ProjectPagesAdminPage .table-striped tbody tr:nth-child(odd) td,
+#ProjectPagesAdminPage .table-striped tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+#ProjectPagesAdminPage .table-hover tbody tr:hover td,
+#ProjectPagesAdminPage .table-hover tbody tr:hover th {
+  background-color: #f5f5f5;
+}
+
+table [class*=span],
+.row-fluid table [class*=span] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span1 {
+  float: none;
+  width: 44px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span2 {
+  float: none;
+  width: 124px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span3 {
+  float: none;
+  width: 204px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span4 {
+  float: none;
+  width: 284px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span5 {
+  float: none;
+  width: 364px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span6 {
+  float: none;
+  width: 444px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span7 {
+  float: none;
+  width: 524px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span8 {
+  float: none;
+  width: 604px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span9 {
+  float: none;
+  width: 684px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span10 {
+  float: none;
+  width: 764px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span11 {
+  float: none;
+  width: 844px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span12 {
+  float: none;
+  width: 924px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span13 {
+  float: none;
+  width: 1004px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span14 {
+  float: none;
+  width: 1084px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span15 {
+  float: none;
+  width: 1164px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span16 {
+  float: none;
+  width: 1244px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span17 {
+  float: none;
+  width: 1324px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span18 {
+  float: none;
+  width: 1404px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span19 {
+  float: none;
+  width: 1484px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span20 {
+  float: none;
+  width: 1564px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span21 {
+  float: none;
+  width: 1644px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span22 {
+  float: none;
+  width: 1724px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span23 {
+  float: none;
+  width: 1804px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table .span24 {
+  float: none;
+  width: 1884px;
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .table tbody tr.success td {
+  background-color: #dff0d8;
+}
+
+#ProjectPagesAdminPage .table tbody tr.error td {
+  background-color: #f2dede;
+}
+
+#ProjectPagesAdminPage .table tbody tr.warning td {
+  background-color: #fcf8e3;
+}
+
+#ProjectPagesAdminPage .table tbody tr.info td {
+  background-color: #d9edf7;
+}
+
+#ProjectPagesAdminPage .table-hover tbody tr.success:hover td {
+  background-color: #d0e9c6;
+}
+
+#ProjectPagesAdminPage .table-hover tbody tr.error:hover td {
+  background-color: #ebcccc;
+}
+
+#ProjectPagesAdminPage .table-hover tbody tr.warning:hover td {
+  background-color: #faf2cc;
+}
+
+#ProjectPagesAdminPage .table-hover tbody tr.info:hover td {
+  background-color: #c4e3f3;
+}
+
+#ProjectPagesAdminPage .hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+#ProjectPagesAdminPage .input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#ProjectPagesAdminPage .btn {
+  display: inline-block;
+  padding: 4px 14px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #fff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #fff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border: 1px solid #bbb;
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#ProjectPagesAdminPage .btn:hover,
+#ProjectPagesAdminPage .btn:active,
+#ProjectPagesAdminPage .btn.active,
+#ProjectPagesAdminPage .btn.disabled,
+#ProjectPagesAdminPage .btn[disabled] {
+  color: #333;
+  background-color: #d9d9d9;
+}
+
+#ProjectPagesAdminPage .btn:active,
+#ProjectPagesAdminPage .btn.active {
+  background-color: #ccc \9;
+}
+
+#ProjectPagesAdminPage .btn:first-child {
+  margin-left: 0;
+}
+
+#ProjectPagesAdminPage .btn:hover {
+  color: #333;
+  text-decoration: none;
+  background-color: #d9d9d9;
+  background-position: 0 -15px;
+  -webkit-transition: background-position .1s linear;
+  -moz-transition: background-position .1s linear;
+  -o-transition: background-position .1s linear;
+  transition: background-position 0.1s linear;
+}
+
+#ProjectPagesAdminPage .btn:focus {
+  outline: 5px auto 0;
+  outline-offset: -2px;
+}
+
+#ProjectPagesAdminPage .btn.active,
+#ProjectPagesAdminPage .btn:active {
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#ProjectPagesAdminPage .btn.disabled,
+#ProjectPagesAdminPage .btn[disabled] {
+  cursor: default;
+  background-color: #e6e6e6;
+  background-image: none;
+  opacity: .65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#ProjectPagesAdminPage .btn-large {
+  font-size: 16px;
+  line-height: normal;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 9px 14px;
+}
+
+#ProjectPagesAdminPage .btn-large [class^="icon-"] {
+  margin-top: 2px;
+}
+
+#ProjectPagesAdminPage .btn-small {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 3px 9px;
+}
+
+#ProjectPagesAdminPage .btn-small [class^="icon-"] {
+  margin-top: 0;
+}
+
+#ProjectPagesAdminPage .btn-mini {
+  font-size: 11px;
+  line-height: 17px;
+  padding: 2px 6px;
+}
+
+#ProjectPagesAdminPage .btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#ProjectPagesAdminPage .btn-block + #ProjectPagesAdminPage .btn-block {
+  margin-top: 5px;
+}
+
+input[type="submit"]#ProjectPagesAdminPage .btn-block,
+input[type="reset"]#ProjectPagesAdminPage .btn-block,
+input[type="button"]#ProjectPagesAdminPage .btn-block {
+  width: 100%;
+}
+
+#ProjectPagesAdminPage .btn-primary.active,
+#ProjectPagesAdminPage .btn-warning.active,
+#ProjectPagesAdminPage .btn-danger.active,
+#ProjectPagesAdminPage .btn-success.active,
+#ProjectPagesAdminPage .btn-info.active,
+#ProjectPagesAdminPage .btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#ProjectPagesAdminPage .btn-primary {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(tobottom, #08c, #04c);
+  background-repeat: repeat-x;
+  background-color: #04c;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+#ProjectPagesAdminPage .btn-primary:hover,
+#ProjectPagesAdminPage .btn-primary:active,
+#ProjectPagesAdminPage .btn-primary.active,
+#ProjectPagesAdminPage .btn-primary.disabled,
+#ProjectPagesAdminPage .btn-primary[disabled] {
+  color: #fff;
+  background-color: #003bb3;
+}
+
+#ProjectPagesAdminPage .btn-primary:active,
+#ProjectPagesAdminPage .btn-primary.active {
+  background-color: #039 \9;
+}
+
+#ProjectPagesAdminPage .btn-warning {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(tobottom, #fbb450, #f89406);
+  background-repeat: repeat-x;
+  background-color: #f89406;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+#ProjectPagesAdminPage .btn-warning:hover,
+#ProjectPagesAdminPage .btn-warning:active,
+#ProjectPagesAdminPage .btn-warning.active,
+#ProjectPagesAdminPage .btn-warning.disabled,
+#ProjectPagesAdminPage .btn-warning[disabled] {
+  color: #fff;
+  background-color: #df8505;
+}
+
+#ProjectPagesAdminPage .btn-warning:active,
+#ProjectPagesAdminPage .btn-warning.active {
+  background-color: #c67605 \9;
+}
+
+#ProjectPagesAdminPage .btn-danger {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(tobottom, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  background-color: #bd362f;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+#ProjectPagesAdminPage .btn-danger:hover,
+#ProjectPagesAdminPage .btn-danger:active,
+#ProjectPagesAdminPage .btn-danger.active,
+#ProjectPagesAdminPage .btn-danger.disabled,
+#ProjectPagesAdminPage .btn-danger[disabled] {
+  color: #fff;
+  background-color: #a9302a;
+}
+
+#ProjectPagesAdminPage .btn-danger:active,
+#ProjectPagesAdminPage .btn-danger.active {
+  background-color: #942a25 \9;
+}
+
+#ProjectPagesAdminPage .btn-success {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(tobottom, #62c462, #51a351);
+  background-repeat: repeat-x;
+  background-color: #51a351;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+#ProjectPagesAdminPage .btn-success:hover,
+#ProjectPagesAdminPage .btn-success:active,
+#ProjectPagesAdminPage .btn-success.active,
+#ProjectPagesAdminPage .btn-success.disabled,
+#ProjectPagesAdminPage .btn-success[disabled] {
+  color: #fff;
+  background-color: #499249;
+}
+
+#ProjectPagesAdminPage .btn-success:active,
+#ProjectPagesAdminPage .btn-success.active {
+  background-color: #408140 \9;
+}
+
+#ProjectPagesAdminPage .btn-info {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(tobottom, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  background-color: #2f96b4;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+#ProjectPagesAdminPage .btn-info:hover,
+#ProjectPagesAdminPage .btn-info:active,
+#ProjectPagesAdminPage .btn-info.active,
+#ProjectPagesAdminPage .btn-info.disabled,
+#ProjectPagesAdminPage .btn-info[disabled] {
+  color: #fff;
+  background-color: #2a85a0;
+}
+
+#ProjectPagesAdminPage .btn-info:active,
+#ProjectPagesAdminPage .btn-info.active {
+  background-color: #24748c \9;
+}
+
+#ProjectPagesAdminPage .btn-inverse {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(tobottom, #444, #222);
+  background-repeat: repeat-x;
+  background-color: #222;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+#ProjectPagesAdminPage .btn-inverse:hover,
+#ProjectPagesAdminPage .btn-inverse:active,
+#ProjectPagesAdminPage .btn-inverse.active,
+#ProjectPagesAdminPage .btn-inverse.disabled,
+#ProjectPagesAdminPage .btn-inverse[disabled] {
+  color: #fff;
+  background-color: #151515;
+}
+
+#ProjectPagesAdminPage .btn-inverse:active,
+#ProjectPagesAdminPage .btn-inverse.active {
+  background-color: #080808 \9;
+}
+
+#ProjectPagesAdminPage button .btn::-moz-focus-inner,
+input[type="submit"]#ProjectPagesAdminPage .btn::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+#ProjectPagesAdminPage button .btn .btn-large,
+input[type="submit"]#ProjectPagesAdminPage .btn .btn-large {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+#ProjectPagesAdminPage button .btn .btn-mini,
+input[type="submit"]#ProjectPagesAdminPage .btn .btn-mini {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+#ProjectPagesAdminPage .btn-link,
+#ProjectPagesAdminPage .btn-link:active,
+#ProjectPagesAdminPage .btn-link[disabled] {
+  background-color: transparent;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#ProjectPagesAdminPage .btn-link {
+  cursor: pointer;
+  color: #08c;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border-color: transparent;
+}
+
+#ProjectPagesAdminPage .btn-link:hover {
+  color: #005580;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+#ProjectPagesAdminPage .btn-link[disabled]:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+#ProjectPagesAdminPage .btn8 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #050505;
+  background: 0;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  border: 5px solid #000;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.7);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+}
+
+#ProjectPagesAdminPage .btn9 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #376304;
+  -moz-box-shadow: 0 1px 3px rgba(51, 51, 51, 0.5), inset 0 0 2px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0 1px 3px rgba(51, 51, 51, 0.5), inset 0 0 2px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 1px 3px rgba(51, 51, 51, 0.5), inset 0 0 2px rgba(255, 255, 255, 0.7);
+  text-shadow: 0 -1px 0 rgba(15, 15, 15, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+}
+
+#ProjectPagesAdminPage .btn10 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background: 0;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  border: 1px solid #7d0000;
+  -moz-box-shadow: 14px 1px 3px transparent, inset 0 0 2px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 14px 1px 3px transparent, inset 0 0 2px rgba(255, 255, 255, 0.7);
+  box-shadow: 14px 1px 3px transparent, inset 0 0 2px rgba(255, 255, 255, 0.7);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+}
+
+#ProjectPagesAdminPage .btn8:hover,
+#ProjectPagesAdminPage .btn9:hover,
+#ProjectPagesAdminPage .btn10:hover {
+  cursor: pointer;
+}
+
+#ProjectPagesAdminPage .clearfix,
+#ProjectPagesAdminPage .clearfix {
+  zoom: 1;
+}
+
+#ProjectPagesAdminPage .clearfix:after,
+#ProjectPagesAdminPage .clearfix:after {
+  clear: both;
+}
+
+#ProjectPagesAdminPage .table caption + thead tr:first-child th,
+#ProjectPagesAdminPage .table caption + thead tr:first-child td,
+#ProjectPagesAdminPage .table colgroup + thead tr:first-child th,
+#ProjectPagesAdminPage .table colgroup + thead tr:first-child td,
+#ProjectPagesAdminPage .table thead:first-child tr:first-child th,
+#ProjectPagesAdminPage .table thead:first-child tr:first-child td,
+#ProjectPagesAdminPage .table-bordered caption + thead tr:first-child th,
+#ProjectPagesAdminPage .table-bordered caption + tbody tr:first-child th,
+#ProjectPagesAdminPage .table-bordered caption + tbody tr:first-child td,
+#ProjectPagesAdminPage .table-bordered colgroup + thead tr:first-child th,
+#ProjectPagesAdminPage .table-bordered colgroup + tbody tr:first-child th,
+#ProjectPagesAdminPage .table-bordered colgroup + tbody tr:first-child td,
+#ProjectPagesAdminPage .table-bordered thead:first-child tr:first-child th,
+#ProjectPagesAdminPage .table-bordered tbody:first-child tr:first-child th,
+#ProjectPagesAdminPage .table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+#ProjectPagesAdminPage .table-bordered thead:first-child tr:first-child th:first-child,
+#ProjectPagesAdminPage .table-bordered tbody:first-child tr:first-child td:first-child,
+#ProjectPagesAdminPage .table-bordered caption + thead tr:first-child th:first-child,
+#ProjectPagesAdminPage .table-bordered caption + tbody tr:first-child td:first-child,
+#ProjectPagesAdminPage .table-bordered colgroup + thead tr:first-child th:first-child,
+#ProjectPagesAdminPage .table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+#ProjectPagesAdminPage button .btn,
+input[type="submit"]#ProjectPagesAdminPage .btn,
+#ProjectPagesAdminPage button .btn .btn-small,
+input[type="submit"]#ProjectPagesAdminPage .btn .btn-small {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#sbSubPage {
+  max-width: 800px;
+}
+
+.whide {
+  display: none;
+}
+
+.sbhomep {
+  text-align: center;
+  padding: 10px;
+  background: #FFF;
+  border-radius: 10px;
+  margin-bottom: 10p;
+}
+
+.sbhomep.imp {
+  background: #e7a249;
+  color: #000;
+  margin-top: 20px;
+}
+
+.sbhomep.imp span {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.sbformS {
+  width: 280px;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 27px;
+}
+
+#sbdismissmsg {
+  position: relative;
+  float: right;
+  border: 3px solid #cf4b4b;
+  color: #cf4b4b;
+  border-radius: 20px;
+  width: 11px;
+  height: 11px;
+  line-height: 11px;
+  font-weight: 800;
+  display: block;
+}
+
+#sbdismissmsg:hover {
+  cursor: pointer;
+}
+
+#ProjectPagesAdminPage .wtab .winput.text {
+  width: 300px;
+}
+
+#ProjectPagesAdminPage .wtab .winput.text.long {
+  width: 430px;
+}
+
+#ProjectPagesAdminPage .wtab .winput.text.short {
+  width: 150px;
+}
+
+#ProjectPagesAdminPage .wtab td.wfieldname {
+  text-align: right;
+}
+
+#ProjectPagesAdminPage .wtab td.wcentral {
+  text-align: center;
+}
+
+#ProjectPagesAdminPage .wtab td.waction {
+  width: 100px;
+}
+
+#ProjectPagesAdminPage .wtab th.whd {
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+#ProjectPagesAdminPage .wtab td.wmid,
+#ProjectPagesAdminPage .wtab th.wmid {
+  text-align: center;
+}
+
+#ProjectPagesAdminPage .wmsgfullwidth .sgM {
+  width: 100%;
+}
+
+#ProjectPagesAdminPage .wtab.wsix {
+  width: 660px;
+  margin: 10px;
+}
+
+#ProjectPagesAdminPage .wtab div.sbaddnew {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  float: right;
+}
+
+#ProjectPagesAdminPage .wtab div.sbmovehandle {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  float: right;
+}
+
+#ProjectPagesAdminPage .wtab div.sbmovehandle:hover {
+  cursor: move;
+}
+
+#ProjectPagesAdminPage .wtab div.sbcopy,
+#ProjectPagesAdminPage .wtab div.sbdel,
+#ProjectPagesAdminPage .wtab div.sbedit {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+#ProjectPagesAdminPage .wtab div.sbcopy:hover,
+#ProjectPagesAdminPage .wtab div.sbdel:hover,
+#ProjectPagesAdminPage .wtab div.sbaddnew:hover,
+#ProjectPagesAdminPage .wtab div.sbedit:hover {
+  cursor: pointer;
+}
+
+#ProjectPagesAdminPage .sbActionMsg {
+  background: #FFF;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 14px;
+  margin: 10px;
+  max-width: 580px;
+}
+
+#ProjectPagesAdminPage .wtab tr.sbopt.ui-sortable-helper {
+  background: #FFF;
+  border: 1px solid #ddd;
+}
+
+#ProjectPagesAdminPage .wtab tr.sbopt {
+  background: #FFF;
+  width: 659px;
+  height: 54px;
+}
+
+#ProjectPagesAdminPage .whclpActionMsg,
+#ProjectPagesAdminPage .lle580 {
+  background: #FFF;
+  text-align: center;
+  border-radius: 14px;
+  max-width: 580px;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.whAlert-box.fail {
+  background: -moz-linear-gradient(top, #d12222 0, #940909);
+  background: -webkit-gradient(linear, left top, left bottom, from(#d12222), to(#940909));
+  border-color: #3a945b;
+  color: #FFFFFF;
+}
+
+.whAlert-box.success {
+  background-color: #43AC6A;
+  border-color: #3a945b;
+  color: #FFFFFF;
+}
+
+.whAlert-box.warn {
+  background: -moz-linear-gradient(top, #d18b22 0, #f52525);
+  background: -webkit-gradient(linear, left top, left bottom, from(#d18b22), to(#f52525));
+  border-color: #3a945b;
+  color: #FFFFFF;
+}
+
+.whAlert-box.info {
+  background: -moz-linear-gradient(top, #afd9fa 0, #588fad);
+  background: -webkit-gradient(linear, left top, left bottom, from(#afd9fa), to(#588fad));
+  border-color: #3a945b;
+  color: #000;
+}
+
+.whAlert-box.radius {
+  border-radius: 3px;
+}
+
+.whAlert-box {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-size: 1em;
+  font-weight: normal;
+  margin-bottom: 1.11111rem;
+  padding: 0.77778rem 1.33333rem 0.77778rem 0.77778rem;
+  position: relative;
+  transition: opacity 300ms ease-out;
+  background-color: #008CBA;
+  border-color: #0078a0;
+  color: #FFFFFF;
+  border-radius: 4px;
+  max-width: 760px;
+  border: 0;
+}
+
+.whAlert-box a:link,
+.whAlert-box a:active,
+.whAlert-box a:visited,
+.whAlert-box a:hover {
+  color: #000;
+  font-weight: 800;
+}
+
+.wh-headerimg-cascade {
+  display: none;
+}
+
+.wh-cascade-show {
+  display: table-row;
+}
+
+/* gradients on editor page */
+#pp_gradient_dropdown {
+  display: inline-block;
+}
+
+#pp_gradient_dropdown .dropdown-toggle {
+  background-color: #000;
+}
+
+#pp_gradient_dropdown .dropdown-menu.show {
+  border: 0;
+  /* background: transparent; */
+  padding: 0;
+  padding-right: 9px;
+  padding-left: 5px;
+}
+
+.pp-dropdown-item {
+  margin-bottom: 4px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #FFF;
+}
+
+.pp-dropdown-item:hover {
+  border: 1px solid #cdb1b1;
+}
+
+#pp-gradient-example-wrap {
+  width: 130px;
+  height: 80px;
+  border-radius: 0.2em;
+  color: #000;
+}
+
+#pp-gradient-example {
+  margin: auto;
+}
+
+.pp-gradient-1 {
+  color: #FFF;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #642b73 0%, #040004 90%);
+}
+
+.pp-gradient-1 span {
+  color: #FFF;
+}
+
+.pp-gradient-2 {
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+.pp-gradient-3 {
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.pp-gradient-4 {
+  color: #FFF;
+  background-color: #FF9A8B;
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+}
+
+.pp-gradient-4 span {
+  color: #FFF;
+}
+
+.pp-gradient-5 {
+  color: #FFF;
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}
+
+.pp-gradient-5 span {
+  color: #FFF;
+}
+
+.pp-gradient-6 {
+  background-color: #52ACFF;
+  background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+}
+
+.pp-gradient-7 {
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.pp-gradient-8 {
+  color: #FFF;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.pp-gradient-8 span {
+  color: #FFF;
+}
+
+.pp-gradient-9 {
+  color: #FFF;
+  background-color: #F4D03F;
+  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+}
+
+.pp-gradient-9 span {
+  color: #FFF;
+}
+
+.pp-gradient-10 {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+/* Fix bootstrap overriding <body> */
+body {
+  background-color: #f0f0f1;
+  color: #3c434a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  line-height: 1.4em;
+}
+
+/* Modified submit box */
+#poststuff #_submitdiv .inside {
+  margin: 0;
+  padding: 0;
+}
+
+.pp-submit-section .dashicons,
+.pp-share-section .dashicons {
+  color: #8c8f94;
+  margin-right: 0.1em;
+}
+
+.pp-share-section .dashicons {
+  margin-bottom: 0.3em;
+}
+
+.pp-share-section a img {
+  max-width: 22px;
+  margin-left: 4px;
+}
+
+/* Editor -> log output */
+#project-pages-log-outer-wrap {
+  display: none;
+  /* initially... */
+}
+
+.project-pages-single-log {
+  min-width: 800px;
+}
+.project-pages-single-log h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pp-add-log-top-button {
+  position: absolute;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.pp-add-log-top-button button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1355px) {
+  .project-pages-single-log {
+    min-width: 600px;
+  }
+}
+@media only screen and (max-width: 1155px) {
+  .project-pages-single-log {
+    min-width: 400px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .project-pages-single-log {
+    min-width: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #project-pages-log-wrap {
+    margin-top: 3em;
+  }
+}
+.project-pages-3-lines {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* Editor Log modal -> date picker */
+#project-pages-add-log-modal .input-group-append,
+#project-pages-edit-log-modal .input-group-append {
+  cursor: pointer;
+}
+
+#project-pages-add-log-modal span.input-group-text,
+#project-pages-edit-log-modal span.input-group-text {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#project-pages-add-log-date,
+#project-pages-edit-log-date {
+  max-width: 120px;
+}
+
+.datepicker {
+  margin-top: 2.2em;
+  margin-left: 0.5em;
+}
+
+.datepicker .datepicker-switch {
+  text-align: center;
+}
+
+.datepicker th,
+.datepicker td {
+  padding: 0.2em 0.4em;
+  text-align: center;
+}
+
+.datepicker td:hover,
+.datepicker th.next:hover,
+.datepicker th.prev:hover {
+  cursor: pointer;
+}
+
+/* Editor, log modal -> wp editor */
+#project_page_add_log_body_ifr,
+#project_page_edit_log_body_ifr {
+  height: 230px !important;
+}
+
+/* Editor, log modal -> meta row */
+#project-pages-add-log-meta-row .col,
+#project-pages-edit-log-meta-row .col {
+  padding-left: 0;
+}
+
+/* Editor, log modal -> dashicon picker */
+.dashicon-picker-container {
+  z-index: 10000;
+}
+
+#project-pages-log-dashicon-icon,
+#project-pages-edit-log-dashicon-icon {
+  font-size: 2em;
+  margin-right: 0.5em;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  width: 1em;
+  height: 1em;
+  border-radius: 2px;
+  margin-top: 2px;
+}
+
+/* Feedback metabox */
+#project-pages-feedback-metabox h1 {
+  font-size: 1.2em;
+}
+
+#project-pages-feedback-metabox p {
+  font-size: 1em;
+}
+
+#project-pages-hide-feedback {
+  width: .1em;
+  height: .1em;
+  right: 1.7em;
+  padding: 0.5em;
+}
+
+/*# sourceMappingURL=ProjectPages.Admin.min.css.map */

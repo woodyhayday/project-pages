@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "project-pages-blocks/archive-body",
+  "version": "0.1.0",
+  "title": "Archive/Tag Body (Project Pages)",
+  "category": "project-pages-blocks",
+  "icon": "schedule",
+  "description": "Display the Archive.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "color": false
+  },
+  "textdomain": "projectpages",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "contentWidth": {
+      "type": "string",
+      "default": "full"
+    },
+    "displayType": {
+      "type": "string",
+      "default": "active_archived"
+    },
+    "timelineTopText": {
+      "type": "string",
+      "default": "Project Timeline"
+    },
+    "timelineBaseText": {
+      "type": "string",
+      "default": ""
+    },
+    "timelineShowYears": {
+      "type": "boolean",
+      "default": true
+    },
+    "timelineShowImages": {
+      "type": "boolean",
+      "default": true
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "publish_date"
+    },
+    "orderDirection": {
+      "type": "string",
+      "default": "DESC"
+    }
+  }
+}

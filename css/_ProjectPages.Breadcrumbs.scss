@@ -1,0 +1,41 @@
+body div.project-pages-breadcrumb-wrap {
+
+    margin-left: 1em !important;
+
+
+    a {
+ 
+        padding: .3em .4em;
+        -webkit-transition: color .1s ease;
+        transition: color .1s ease;
+        text-decoration: none;
+    }
+    a:hover {
+        color: var(--wp--preset--color--contrast-2) !important;     
+    }
+
+    a.active-page {
+        border-bottom: 2px solid;
+    }
+
+    span.project-pages-separator {
+        
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 0.2em;
+
+    }
+}
+
+
+
+/* Mob */
+@media only screen and (max-width: 500px) {
+
+    // hide first breadcrumb for mobs (stops spillover)
+    body div.project-pages-breadcrumb-wrap a:first-child,
+    body div.project-pages-breadcrumb-wrap span:first-of-type {
+        display: none;
+    }
+
+}

@@ -1,0 +1,301 @@
+
+.project-pages-timeline {
+  position: relative;
+  width: 100%;
+  padding: 30px 0;
+
+  // general
+  .project-pages-relative {
+    position:relative;
+  }
+
+}
+
+.project-pages-timeline .project-pages-timeline-container {
+  position: relative;
+  width: 100%;
+}
+
+.project-pages-timeline .project-pages-timeline-end,
+.project-pages-timeline .project-pages-timeline-start,
+.project-pages-timeline .project-pages-timeline-year {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.project-pages-timeline .project-pages-timeline-end p,
+.project-pages-timeline .project-pages-timeline-start p,
+.project-pages-timeline .project-pages-timeline-year p {
+  margin: 0;
+  padding: 1em 0;
+  text-align: center;
+  font-size: 1.4em;
+  border-bottom: 1px solid var(--wp--preset--color--contrast);
+  max-width: 300px;
+  margin: auto;
+}
+.project-pages-timeline .project-pages-timeline-start p{
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 1.4em;
+  border-top: 1px solid var(--wp--preset--color--contrast);
+  border-bottom: none;
+  max-width: 300px;
+  margin: auto;
+}
+
+.project-pages-timeline .project-pages-timeline-year {
+  //margin: 30px 0;
+}
+
+.project-pages-timeline .project-pages-timeline-continue {
+  position: relative;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.project-pages-timeline .project-pages-timeline-continue::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+  background: var(--wp--preset--color--contrast);
+}
+
+.project-pages-timeline .row.project-pages-timeline-left,
+.project-pages-timeline .row.project-pages-timeline-right .project-pages-timeline-date {
+  text-align: right;
+}
+
+.project-pages-timeline .row.project-pages-timeline-right,
+.project-pages-timeline .row.project-pages-timeline-left .project-pages-timeline-date {
+  text-align: left;
+}
+
+.project-pages-timeline .project-pages-timeline-date {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 41px 0 0 0;
+}
+
+.project-pages-timeline .project-pages-timeline-date::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 45px;
+  background: var(--wp--preset--color--contrast);
+  //box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.project-pages-timeline .row.project-pages-timeline-left .project-pages-timeline-date::after {
+  left: -7px;
+}
+
+.project-pages-timeline .row.project-pages-timeline-right .project-pages-timeline-date::after {
+  right: -7px;
+}
+
+.project-pages-timeline .project-pages-timeline-box,
+.project-pages-timeline .project-pages-timeline-launch {
+  position: relative;
+  display: inline-block;
+  margin: 1em;
+  padding: 1.4em;
+  padding-bottom: 1em;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.project-pages-timeline .project-pages-timeline-launch {
+  width: 100%;
+  margin: 15px 0;
+  padding: 0;
+  border: none;
+  text-align: center;
+  background: transparent;
+}
+
+.project-pages-timeline .project-pages-timeline-box::after,
+.project-pages-timeline .project-pages-timeline-box::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.project-pages-timeline .row.project-pages-timeline-left .project-pages-timeline-box::after,
+.project-pages-timeline .row.project-pages-timeline-left .project-pages-timeline-box::before {
+  left: 100%;
+}
+
+.project-pages-timeline .row.project-pages-timeline-right .project-pages-timeline-box::after,
+.project-pages-timeline .row.project-pages-timeline-right .project-pages-timeline-box::before {
+  right: 100%;
+}
+
+.project-pages-timeline .project-pages-timeline-launch .project-pages-timeline-box::after,
+.project-pages-timeline .project-pages-timeline-launch .project-pages-timeline-box::before {
+  left: 50%;
+  margin-left: -10px;
+}
+
+.project-pages-timeline .project-pages-timeline-box::after {
+  top: 26px;
+  border-color: transparent transparent transparent #ffffff;
+  border-width: 10px;
+}
+
+.project-pages-timeline .project-pages-timeline-box::before {
+  top: 25px;
+  border-color: transparent transparent transparent #dddddd;
+  border-width: 11px;
+}
+
+.project-pages-timeline .row.project-pages-timeline-right .project-pages-timeline-box::after {
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.project-pages-timeline .row.project-pages-timeline-right .project-pages-timeline-box::before {
+  border-color: transparent #dddddd transparent transparent;
+}
+
+.project-pages-timeline .project-pages-timeline-launch .project-pages-timeline-box::after {
+  top: -20px;
+  border-color: transparent transparent #dddddd transparent;
+}
+
+.project-pages-timeline .project-pages-timeline-launch .project-pages-timeline-box::before {
+  top: -19px;
+  border-color: transparent transparent #ffffff transparent;
+  border-width: 10px;
+  z-index: 1;
+}
+
+.project-pages-timeline .project-pages-timeline-box .project-pages-timeline-status {
+  //position: relative;
+  //width: 40px;
+  //height: auto;
+  //float: left;
+}
+
+.project-pages-timeline .project-pages-timeline-status {
+  width:auto;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  line-height: 1em;
+  border-radius: 0.2em;
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+img.project-pages-timeline-image {
+    max-width: 100%;
+    border-top-right-radius: 0.2em;
+    border-top-left-radius: 0.2em;
+}
+
+.project-pages-timeline .project-pages-timeline-box .project-pages-timeline-text {
+  position: relative;
+  //width: calc(100% - 40px);
+  float: left;
+}
+
+.project-pages-timeline .project-pages-timeline-launch .project-pages-timeline-text {
+  width: 100%;
+}
+
+.project-pages-timeline .project-pages-timeline-text h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+  margin-top:0;
+}
+.project-pages-timeline .project-pages-timeline-text a {
+
+  text-decoration: none;
+
+}
+
+.project-pages-timeline .project-pages-timeline-text p,
+.project-pages-timeline .project-pages-timeline-text li {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.project-pages-timeline-right {
+
+  .project-pages-status {
+    float:right;
+  }
+
+}
+.project-pages-timeline-left {
+
+  .project-pages-status {
+    float:left;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+  .project-pages-timeline .project-pages-timeline-continue::after {
+    left: 40px;
+  }
+
+  .project-pages-timeline .project-pages-timeline-end,
+  .project-pages-timeline .project-pages-timeline-start,
+  .project-pages-timeline .project-pages-timeline-year,
+  .project-pages-timeline .row.project-pages-timeline-left,
+  .project-pages-timeline .row.project-pages-timeline-right .project-pages-timeline-date,
+  .project-pages-timeline .row.project-pages-timeline-right,
+  .project-pages-timeline .row.project-pages-timeline-left .project-pages-timeline-date,
+  .project-pages-timeline .project-pages-timeline-launch {
+    text-align: left;
+  }
+
+  .project-pages-timeline .row.project-pages-timeline-left .project-pages-timeline-date::after,
+  .project-pages-timeline .row.project-pages-timeline-right .project-pages-timeline-date::after {
+    left: 47px;
+  }
+
+  .project-pages-timeline .project-pages-timeline-box,
+  .project-pages-timeline .row.project-pages-timeline-right .project-pages-timeline-date,
+  .project-pages-timeline .row.project-pages-timeline-left .project-pages-timeline-date {
+    margin-left: 55px;
+  }
+
+  .project-pages-timeline .project-pages-timeline-launch .project-pages-timeline-box {
+    margin-left: 0;
+  }
+
+  .project-pages-timeline .row.project-pages-timeline-left .project-pages-timeline-box::after {
+    left: -20px;
+    border-color: transparent #ffffff transparent transparent;
+  }
+
+  .project-pages-timeline .row.project-pages-timeline-left .project-pages-timeline-box::before {
+    left: -22px;
+    border-color: transparent #dddddd transparent transparent;
+  }
+
+  .project-pages-timeline .project-pages-timeline-launch .project-pages-timeline-box::after,
+  .project-pages-timeline .project-pages-timeline-launch .project-pages-timeline-box::before {
+    left: 30px;
+    margin-left: 0;
+  }
+}

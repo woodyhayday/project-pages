@@ -1,0 +1,1754 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Project Pages\n"
+"POT-Creation-Date: 2024-05-29 14:08+0100\n"
+"PO-Revision-Date: 2024-05-29 14:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: Woody Hayday\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lang\n"
+"X-Poedit-SearchPathExcluded-1: translations\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: i\n"
+"X-Poedit-SearchPathExcluded-4: blocks/build\n"
+"X-Poedit-SearchPathExcluded-5: js/libs\n"
+"X-Poedit-SearchPathExcluded-6: package-lock.json\n"
+"X-Poedit-SearchPathExcluded-7: package.json\n"
+"X-Poedit-SearchPathExcluded-8: Gruntfile.js\n"
+
+#: ProjectPages.php:541 ProjectPages.php:543
+msgid "Project Tags"
+msgstr "Project Tags"
+
+#: ProjectPages.php:542
+msgid "Project Tag"
+msgstr "Project Tag"
+
+#: ProjectPages.php:544
+msgid "All Tags"
+msgstr "All Tags"
+
+#: ProjectPages.php:545
+msgid "Parent Tag"
+msgstr "Parent Tag"
+
+#: ProjectPages.php:546
+msgid "Parent Tag:"
+msgstr "Parent Tag:"
+
+#: ProjectPages.php:547
+msgid "New Tag Name"
+msgstr "New Tag Name"
+
+#: ProjectPages.php:548
+msgid "Add Tag Item"
+msgstr "Add Tag Item"
+
+#: ProjectPages.php:549
+msgid "Edit Tag"
+msgstr "Edit Tag"
+
+#: ProjectPages.php:550
+msgid "Tag Item"
+msgstr "Tag Item"
+
+#: ProjectPages.php:551
+msgid "View Tag"
+msgstr "View Tag"
+
+#: ProjectPages.php:552
+msgid "Separate Tags with commas"
+msgstr "Separate Tags with commas"
+
+#: ProjectPages.php:553
+msgid "Add or remove Tags"
+msgstr "Add or remove Tags"
+
+#: ProjectPages.php:554
+msgid "Choose from the most used"
+msgstr "Choose from the most used"
+
+#: ProjectPages.php:555
+msgid "Popular Tags"
+msgstr "Popular Tags"
+
+#: ProjectPages.php:556
+msgid "Search Tags"
+msgstr "Search Tags"
+
+#: ProjectPages.php:557
+msgid "Not Found"
+msgstr "Not Found"
+
+#: ProjectPages.php:558 includes/blocks/status-card.php:94
+msgid "No Tags"
+msgstr "No Tags"
+
+#: ProjectPages.php:559
+msgid "Tags list"
+msgstr "Tags list"
+
+#: ProjectPages.php:560
+msgid "Tags list navigation"
+msgstr "Tags list navigation"
+
+#: ProjectPages.php:586 ProjectPages.php:588 ProjectPages.php:589
+#: blocks/src/archive-body/edit.js:81 blocks/src/body/edit.js:62
+#: blocks/src/breadcrumb/edit.js:118 blocks/src/hero-archives-tags/edit.js:243
+#: blocks/src/hero/edit.js:229 blocks/src/logs/edit.js:62
+#: blocks/src/query-loop/edit.js:138 blocks/src/recent-project-logs/edit.js:190
+#: blocks/src/status-card/edit.js:121 blocks/src/tag-cloud/edit.js:63
+#: includes/blocks/hero-archives-tags.php:164
+#: includes/blocks/hero-archives-tags.php:275 includes/blocks/status-card.php:87
+#: pages/welcome.php:169 pages/welcome.php:175
+msgid "Project Pages"
+msgstr "Project Pages"
+
+#: ProjectPages.php:587 ProjectPages.php:603 ProjectPages.php:604
+msgid "Project Page"
+msgstr "Project Page"
+
+#: ProjectPages.php:590
+msgid "Parent Project Page:"
+msgstr "Parent Project Page:"
+
+#: ProjectPages.php:591
+msgid "All Project Pages"
+msgstr "All Project Pages"
+
+#: ProjectPages.php:592
+msgid "Add New Project Page"
+msgstr "Add New Project Page"
+
+#: ProjectPages.php:593 ProjectPages.php:641
+msgid "Add New"
+msgstr "Add New"
+
+#: ProjectPages.php:594 pages/welcome.php:179
+msgid "New Project Page"
+msgstr "New Project Page"
+
+#: ProjectPages.php:595
+msgid "Edit Project Page"
+msgstr "Edit Project Page"
+
+#: ProjectPages.php:596
+msgid "Update Project Page"
+msgstr "Update Project Page"
+
+#: ProjectPages.php:597 includes/ProjectPages.MetaBoxes.php:382
+msgid "View Project Page"
+msgstr "View Project Page"
+
+#: ProjectPages.php:598
+msgid "Search Project Pages"
+msgstr "Search Project Pages"
+
+#: ProjectPages.php:599
+msgid "No Project Pages Found"
+msgstr "No Project Pages Found"
+
+#: ProjectPages.php:600
+msgid "Project Page Not found in Trash"
+msgstr "Project Page Not found in Trash"
+
+#: ProjectPages.php:632 ProjectPages.php:634
+#: includes/ProjectPages.MetaBoxes.php:923 includes/blocks/status-card.php:117
+#: templates/single-projectpage_DEFAULT.php:750
+msgid "Project Logs"
+msgstr "Project Logs"
+
+#: ProjectPages.php:633 ProjectPages.php:635 ProjectPages.php:638
+#: ProjectPages.php:660 includes/blocks/logs.php:50
+#: templates/single-projectpage_DEFAULT.php:820
+msgid "Project Log"
+msgstr "Project Log"
+
+#: ProjectPages.php:636
+msgid "Project Log Archives"
+msgstr "Project Log Archives"
+
+#: ProjectPages.php:637
+msgid "Project Log:"
+msgstr "Project Log:"
+
+#: ProjectPages.php:639
+msgid "All Project Logs"
+msgstr "All Project Logs"
+
+#: ProjectPages.php:640
+msgid "Add New Project Log"
+msgstr "Add New Project Log"
+
+#: ProjectPages.php:642
+msgid "New Project Log"
+msgstr "New Project Log"
+
+#: ProjectPages.php:643
+msgid "Edit Project Log"
+msgstr "Edit Project Log"
+
+#: ProjectPages.php:644
+msgid "Update Project Log"
+msgstr "Update Project Log"
+
+#: ProjectPages.php:645
+msgid "View Project Log"
+msgstr "View Project Log"
+
+#: ProjectPages.php:646
+msgid "Search Project Log"
+msgstr "Search Project Log"
+
+#: ProjectPages.php:647
+msgid "Not found"
+msgstr "Not found"
+
+#: ProjectPages.php:648
+msgid "Not found in Trash"
+msgstr "Not found in Trash"
+
+#: ProjectPages.php:649
+msgid "Project Log Image"
+msgstr "Project Log Image"
+
+#: ProjectPages.php:650
+msgid "Set Project Log image"
+msgstr "Set Project Log image"
+
+#: ProjectPages.php:651
+msgid "Remove Project Log image"
+msgstr "Remove Project Log image"
+
+#: ProjectPages.php:652
+msgid "Use as Project Log image"
+msgstr "Use as Project Log image"
+
+#: ProjectPages.php:653
+msgid "Insert into Project Log"
+msgstr "Insert into Project Log"
+
+#: ProjectPages.php:654
+msgid "Uploaded to this Project Log"
+msgstr "Uploaded to this Project Log"
+
+#: ProjectPages.php:655
+msgid "Project Logs list"
+msgstr "Project Logs list"
+
+#: ProjectPages.php:656
+msgid "Project Logs list navigation"
+msgstr "Project Logs list navigation"
+
+#: ProjectPages.php:657
+msgid "Filter Project Logs list"
+msgstr "Filter Project Logs list"
+
+#: ProjectPages.php:661
+msgid "Project Page Log"
+msgstr "Project Page Log"
+
+#: ProjectPages.php:936 ProjectPages.php:970 ProjectPages.php:982
+#: ProjectPages.php:996
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: ProjectPages.php:1031 ProjectPages.php:1034 ProjectPages.php:1045
+msgid "Project updated."
+msgstr "Project updated."
+
+#: ProjectPages.php:1032
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: ProjectPages.php:1033
+msgid "Custom field deleted."
+msgstr "Custom field deleted."
+
+#: ProjectPages.php:1036
+#, php-format
+msgid "Project restored to revision from %s"
+msgstr "Project restored to revision from %s"
+
+#: ProjectPages.php:1037 ProjectPages.php:1038
+msgid "Project saved."
+msgstr "Project saved."
+
+#: ProjectPages.php:1039
+msgid "Project submitted."
+msgstr "Project submitted."
+
+#: ProjectPages.php:1041
+#, php-format
+msgid "Project scheduled for: <strong>%1$s</strong>."
+msgstr "Project scheduled for: <strong>%1$s</strong>."
+
+#: ProjectPages.php:1043
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: ProjectPages.php:1096
+msgid "Share:"
+msgstr "Share:"
+
+#: ProjectPages.php:1114
+#, php-format
+msgid "Share %s on Facebook"
+msgstr "Share %s on Facebook"
+
+#: ProjectPages.php:1134
+#, php-format
+msgid "Share %s on X/Twitter"
+msgstr "Share %s on X/Twitter"
+
+#: ProjectPages.php:1146
+#, php-format
+msgid "Share %s on LinkedIn"
+msgstr "Share %s on LinkedIn"
+
+#: ProjectPages.php:1166
+#, php-format
+msgid "Share %s via Telegram"
+msgstr "Share %s via Telegram"
+
+#: ProjectPages.php:1372
+msgid "&laquo; Previous"
+msgstr "&laquo; Previous"
+
+#: ProjectPages.php:1373
+msgid "Next &raquo;"
+msgstr "Next &raquo;"
+
+#: ProjectPages.php:1476
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: blocks/src/archive-body/edit.js:47 blocks/src/body/edit.js:42
+#: blocks/src/logs/edit.js:43
+msgid "Content Settings"
+msgstr "Content Settings"
+
+#: blocks/src/archive-body/edit.js:53
+msgid "Display Type"
+msgstr "Display Type"
+
+#: blocks/src/archive-body/edit.js:56 includes/blocks/archive-body.php:84
+msgid "All Projects"
+msgstr "All Projects"
+
+#: blocks/src/archive-body/edit.js:57
+msgid "Current | Archive/Completed (Do not show Ideas)"
+msgstr "Current | Archive/Completed (Do not show Ideas)"
+
+#: blocks/src/archive-body/edit.js:58
+msgid "Current (In Progress)"
+msgstr "Current (In Progress)"
+
+#: blocks/src/archive-body/edit.js:67 blocks/src/body/edit.js:48
+#: blocks/src/logs/edit.js:49
+msgid "Content Width"
+msgstr "Content Width"
+
+#: blocks/src/archive-body/edit.js:70 blocks/src/body/edit.js:51
+#: blocks/src/logs/edit.js:52
+msgid "Full width"
+msgstr "Full width"
+
+#: blocks/src/archive-body/edit.js:71 blocks/src/body/edit.js:52
+#: blocks/src/logs/edit.js:53
+msgid "Narrow"
+msgstr "Narrow"
+
+#: blocks/src/archive-body/save.js:17
+msgid "Project Archives will display here"
+msgstr "Project Archives will display here"
+
+#: blocks/src/body/save.js:17
+msgid "Project body will display here"
+msgstr "Project body will display here"
+
+#: blocks/src/breadcrumb/edit.js:53
+msgid "Breadcrumb Settings"
+msgstr "Breadcrumb Settings"
+
+#: blocks/src/breadcrumb/edit.js:61
+msgid "Show Home Level"
+msgstr "Show Home Level"
+
+#: blocks/src/breadcrumb/edit.js:74 blocks/src/hero-archives-tags/edit.js:107
+#: blocks/src/hero/edit.js:104
+msgid "Home Label"
+msgstr "Home Label"
+
+#: blocks/src/breadcrumb/edit.js:76 blocks/src/hero-archives-tags/edit.js:109
+#: blocks/src/hero/edit.js:106
+msgid "e.g. Home"
+msgstr "e.g. Home"
+
+#: blocks/src/breadcrumb/edit.js:79 blocks/src/hero-archives-tags/edit.js:112
+#: blocks/src/hero/edit.js:109
+msgid "Leave blank to use Site title"
+msgstr "Leave blank to use Site title"
+
+#: blocks/src/breadcrumb/edit.js:90 blocks/src/hero-archives-tags/edit.js:123
+#: blocks/src/hero/edit.js:120
+msgid "Projects Label"
+msgstr "Projects Label"
+
+#: blocks/src/breadcrumb/edit.js:92 blocks/src/hero-archives-tags/edit.js:125
+#: blocks/src/hero/edit.js:122
+msgid "e.g. Projects"
+msgstr "e.g. Projects"
+
+#: blocks/src/breadcrumb/edit.js:95 blocks/src/hero-archives-tags/edit.js:128
+#: blocks/src/hero/edit.js:125
+msgid "Leave blank to use Projects"
+msgstr "Leave blank to use Projects"
+
+#: blocks/src/breadcrumb/edit.js:104 blocks/src/hero-archives-tags/edit.js:137
+#: blocks/src/hero/edit.js:134
+msgid "Separator"
+msgstr "Separator"
+
+#: blocks/src/breadcrumb/edit.js:106 blocks/src/hero-archives-tags/edit.js:139
+#: blocks/src/hero/edit.js:136
+msgid "e.g. >>"
+msgstr "e.g. >>"
+
+#: blocks/src/breadcrumb/edit.js:109 blocks/src/hero-archives-tags/edit.js:142
+#: blocks/src/hero/edit.js:139
+msgid "Leave blank to use default"
+msgstr "Leave blank to use default"
+
+#: blocks/src/breadcrumb/save.js:16
+msgid "Breadcrumb will display here"
+msgstr "Breadcrumb will display here"
+
+#: blocks/src/hero-archives-tags/edit.js:73 blocks/src/hero/edit.js:70
+msgid "Project Page Breadcrumbs"
+msgstr "Project Page Breadcrumbs"
+
+#: blocks/src/hero-archives-tags/edit.js:80 blocks/src/hero/edit.js:77
+msgid "Show Breadcrumbs"
+msgstr "Show Breadcrumbs"
+
+#: blocks/src/hero-archives-tags/edit.js:94 blocks/src/hero/edit.js:91
+msgid "Show Home Level (Breadcrumb)"
+msgstr "Show Home Level (Breadcrumb)"
+
+#: blocks/src/hero-archives-tags/edit.js:153 blocks/src/hero/edit.js:150
+msgid "Project Page Hero Defaults"
+msgstr "Project Page Hero Defaults"
+
+#: blocks/src/hero-archives-tags/edit.js:159
+msgid "Archive Home Title"
+msgstr "Archive Home Title"
+
+#: blocks/src/hero-archives-tags/edit.js:161
+msgid "e.g. My Projects"
+msgstr "e.g. My Projects"
+
+#: blocks/src/hero-archives-tags/edit.js:167 blocks/src/hero/edit.js:154
+msgid "Background"
+msgstr "Background"
+
+#: blocks/src/hero-archives-tags/edit.js:170
+msgid "Set a default background for your Project Page archive pages."
+msgstr "Set a default background for your Project Page archive pages."
+
+#: blocks/src/hero-archives-tags/edit.js:175 blocks/src/hero/edit.js:162
+msgid "Default Background Image"
+msgstr "Default Background Image"
+
+#: blocks/src/hero-archives-tags/edit.js:177 blocks/src/hero/edit.js:164
+msgid "e.g. https://example.com/example.png"
+msgstr "e.g. https://example.com/example.png"
+
+#: blocks/src/hero-archives-tags/edit.js:185 blocks/src/hero/edit.js:172
+msgid "Default Background Video"
+msgstr "Default Background Video"
+
+#: blocks/src/hero-archives-tags/edit.js:187 blocks/src/hero/edit.js:174
+msgid "e.g. https://example.com/example.mp4"
+msgstr "e.g. https://example.com/example.mp4"
+
+#: blocks/src/hero-archives-tags/edit.js:193 blocks/src/hero/edit.js:180
+msgid "Default Background Color"
+msgstr "Default Background Color"
+
+#: blocks/src/hero-archives-tags/edit.js:198 blocks/src/hero/edit.js:185
+msgid "Default Hero BG Color"
+msgstr "Default Hero BG Color"
+
+#: blocks/src/hero-archives-tags/edit.js:207 blocks/src/hero/edit.js:194
+msgid "Fonts"
+msgstr "Fonts"
+
+#: blocks/src/hero-archives-tags/edit.js:210 blocks/src/hero/edit.js:197
+msgid "Set font colours for your default Project Pages"
+msgstr "Set font colours for your default Project Pages"
+
+#: blocks/src/hero-archives-tags/edit.js:213 blocks/src/hero/edit.js:200
+msgid "Default Font Color"
+msgstr "Default Font Color"
+
+#: blocks/src/hero-archives-tags/edit.js:218 blocks/src/hero/edit.js:205
+msgid "Default Hero Font Color"
+msgstr "Default Hero Font Color"
+
+#: blocks/src/hero-archives-tags/edit.js:226 blocks/src/hero/edit.js:213
+msgid "Default Alt Font Color"
+msgstr "Default Alt Font Color"
+
+#: blocks/src/hero-archives-tags/edit.js:231 blocks/src/hero/edit.js:218
+msgid "Default Hero Alt Font Color"
+msgstr "Default Hero Alt Font Color"
+
+#: blocks/src/hero-archives-tags/save.js:16 blocks/src/hero/save.js:16
+msgid "Hero will display here"
+msgstr "Hero will display here"
+
+#: blocks/src/hero/edit.js:157
+msgid ""
+"Set a default background for your single Project Pages which have no bg set."
+msgstr ""
+"Set a default background for your single Project Pages which have no bg set."
+
+#: blocks/src/logs/save.js:17
+msgid "Project logs will display here"
+msgstr "Project logs will display here"
+
+#: blocks/src/query-loop/edit.js:55 blocks/src/recent-project-logs/edit.js:65
+#: blocks/src/tag-cloud/edit.js:43 pages/welcome.php:185
+msgid "Settings"
+msgstr "Settings"
+
+#: blocks/src/query-loop/edit.js:59 blocks/src/query-loop/edit.js:64
+msgid "Filter"
+msgstr "Filter"
+
+#: blocks/src/query-loop/edit.js:67
+msgid "All (no filter)"
+msgstr "All (no filter)"
+
+#: blocks/src/query-loop/edit.js:68 blocks/src/query-loop/edit.js:80
+#: includes/blocks/hero-archives-tags.php:173
+#: includes/blocks/hero-archives-tags.php:174
+msgid "Tag"
+msgstr "Tag"
+
+#: blocks/src/query-loop/edit.js:69 blocks/src/query-loop/edit.js:115
+#: includes/ProjectPages.MetaBoxes.php:573 includes/blocks/status-card.php:63
+#: templates/single-projectpage_DEFAULT.php:724
+msgid "Status"
+msgstr "Status"
+
+#: blocks/src/query-loop/edit.js:94
+msgid "Project Status"
+msgstr "Project Status"
+
+#: blocks/src/query-loop/edit.js:106
+msgid "Order"
+msgstr "Order"
+
+#: blocks/src/query-loop/edit.js:111
+msgid "Order by"
+msgstr "Order by"
+
+#: blocks/src/query-loop/edit.js:114
+msgid "ID"
+msgstr "ID"
+
+#: blocks/src/query-loop/edit.js:116
+msgid "Last Updated"
+msgstr "Last Updated"
+
+#: blocks/src/query-loop/edit.js:125
+msgid "Order Direction"
+msgstr "Order Direction"
+
+#: blocks/src/query-loop/edit.js:128
+msgid "DESC"
+msgstr "DESC"
+
+#: blocks/src/query-loop/edit.js:129
+msgid "ASC"
+msgstr "ASC"
+
+#: blocks/src/query-loop/save.js:16
+msgid "Query Output will display here"
+msgstr "Query Output will display here"
+
+#: blocks/src/recent-project-logs/edit.js:72
+msgid "Show a heading"
+msgstr "Show a heading"
+
+#: blocks/src/recent-project-logs/edit.js:78
+msgid "Heading displayed"
+msgstr "Heading displayed"
+
+#: blocks/src/recent-project-logs/edit.js:82
+msgid "No Heading displayed"
+msgstr "No Heading displayed"
+
+#: blocks/src/recent-project-logs/edit.js:96
+msgid "Heading"
+msgstr "Heading"
+
+#: blocks/src/recent-project-logs/edit.js:98
+msgid "e.g. Recent Project Updates"
+msgstr "e.g. Recent Project Updates"
+
+#: blocks/src/recent-project-logs/edit.js:101
+msgid "Text to display at the top of the logs box"
+msgstr "Text to display at the top of the logs box"
+
+#: blocks/src/recent-project-logs/edit.js:112
+msgid "Number of logs"
+msgstr "Number of logs"
+
+#: blocks/src/recent-project-logs/edit.js:114
+msgid "e.g. 3"
+msgstr "e.g. 3"
+
+#: blocks/src/recent-project-logs/edit.js:117
+msgid "Number of logs to display in logs box"
+msgstr "Number of logs to display in logs box"
+
+#: blocks/src/recent-project-logs/edit.js:127
+msgid "Show Log Dates"
+msgstr "Show Log Dates"
+
+#: blocks/src/recent-project-logs/edit.js:133
+msgid "Dates displayed"
+msgstr "Dates displayed"
+
+#: blocks/src/recent-project-logs/edit.js:137
+msgid "No Dates displayed"
+msgstr "No Dates displayed"
+
+#: blocks/src/recent-project-logs/edit.js:150
+msgid "Show Link to All Projects"
+msgstr "Show Link to All Projects"
+
+#: blocks/src/recent-project-logs/edit.js:156
+msgid "Show Link"
+msgstr "Show Link"
+
+#: blocks/src/recent-project-logs/edit.js:160
+msgid "No Link displayed"
+msgstr "No Link displayed"
+
+#: blocks/src/recent-project-logs/edit.js:174
+msgid "Projects Link Label"
+msgstr "Projects Link Label"
+
+#: blocks/src/recent-project-logs/edit.js:176
+msgid "e.g. View All Projects"
+msgstr "e.g. View All Projects"
+
+#: blocks/src/recent-project-logs/edit.js:179
+msgid "Text to show on the All Projects link"
+msgstr "Text to show on the All Projects link"
+
+#: blocks/src/recent-project-logs/save.js:22
+msgid " Logs will display here"
+msgstr " Logs will display here"
+
+#: blocks/src/status-card/edit.js:46
+msgid "Display Settings"
+msgstr "Display Settings"
+
+#: blocks/src/status-card/edit.js:53
+msgid "Show Featured Image"
+msgstr "Show Featured Image"
+
+#: blocks/src/status-card/edit.js:59
+msgid "Featured Image displayed"
+msgstr "Featured Image displayed"
+
+#: blocks/src/status-card/edit.js:63
+msgid "Featured Image not displayed"
+msgstr "Featured Image not displayed"
+
+#: blocks/src/status-card/edit.js:76
+msgid "Show Tags"
+msgstr "Show Tags"
+
+#: blocks/src/status-card/edit.js:82
+msgid "Tags displayed"
+msgstr "Tags displayed"
+
+#: blocks/src/status-card/edit.js:86
+msgid "Tags not displayed"
+msgstr "Tags not displayed"
+
+#: blocks/src/status-card/edit.js:99
+msgid "Show Log Summary "
+msgstr "Show Log Summary "
+
+#: blocks/src/status-card/edit.js:105
+msgid "Summary displayed"
+msgstr "Summary displayed"
+
+#: blocks/src/status-card/edit.js:109
+msgid "Summary not displayed"
+msgstr "Summary not displayed"
+
+#: blocks/src/status-card/save.js:16
+msgid "Project card will display here"
+msgstr "Project card will display here"
+
+#: blocks/src/summary/save.js:17
+msgid "Project summary will display here"
+msgstr "Project summary will display here"
+
+#: blocks/src/tag-cloud/edit.js:49
+msgid "Label"
+msgstr "Label"
+
+#: blocks/src/tag-cloud/edit.js:51
+msgid "e.g. Tags:"
+msgstr "e.g. Tags:"
+
+#: blocks/src/tag-cloud/edit.js:54
+msgid "Text to display before the tag list"
+msgstr "Text to display before the tag list"
+
+#: blocks/src/tag-cloud/save.js:16
+msgid " Tag List will display here"
+msgstr " Tag List will display here"
+
+#: includes/ProjectPages.AJAX.php:40
+msgid "Failed to add log"
+msgstr "Failed to add log"
+
+#: includes/ProjectPages.AJAX.php:73
+msgid "Failed to update log"
+msgstr "Failed to update log"
+
+#: includes/ProjectPages.AJAX.php:101
+msgid "Failed to delete log"
+msgstr "Failed to delete log"
+
+#: includes/ProjectPages.Config.Init.php:26
+msgid "Idea"
+msgstr "Idea"
+
+#: includes/ProjectPages.Config.Init.php:27
+msgid "Planning"
+msgstr "Planning"
+
+#: includes/ProjectPages.Config.Init.php:28
+msgid "In Progress"
+msgstr "In Progress"
+
+#: includes/ProjectPages.Config.Init.php:29
+msgid "Completed"
+msgstr "Completed"
+
+#: includes/ProjectPages.Config.Init.php:30
+msgid "Success"
+msgstr "Success"
+
+#: includes/ProjectPages.Config.Init.php:31
+msgid "Fail"
+msgstr "Fail"
+
+#: includes/ProjectPages.Config.Init.php:32
+msgid "Shelved"
+msgstr "Shelved"
+
+#: includes/ProjectPages.Config.Init.php:33
+msgid "Archived"
+msgstr "Archived"
+
+#: includes/ProjectPages.Config.Init.php:34
+msgid "Abandoned"
+msgstr "Abandoned"
+
+#: includes/ProjectPages.Config.Init.php:35
+msgid "Evolved"
+msgstr "Evolved"
+
+#: includes/ProjectPages.DAL.php:816
+msgid "Untitled Project #"
+msgstr "Untitled Project #"
+
+#: includes/ProjectPages.DAL.php:1023
+#, php-format
+msgid "Untitled Project #%d"
+msgstr "Untitled Project #%d"
+
+#: includes/ProjectPages.DAL.php:1073
+msgid "example Project summary"
+msgstr "example Project summary"
+
+#: includes/ProjectPages.DAL.php:1076
+msgid "example Project body content"
+msgstr "example Project body content"
+
+#: includes/ProjectPages.DAL.php:1090 includes/ProjectPages.DAL.php:1091
+msgid "Example Project"
+msgstr "Example Project"
+
+#: includes/ProjectPages.DAL.php:1103
+msgid "This is an example bi-line for a project"
+msgstr "This is an example bi-line for a project"
+
+#: includes/ProjectPages.DAL.php:1106
+msgid "Example Button"
+msgstr "Example Button"
+
+#: includes/ProjectPages.DAL.php:1118 includes/ProjectPages.DAL.php:1128
+msgid "Example Log"
+msgstr "Example Log"
+
+#: includes/ProjectPages.DAL.php:1123 includes/ProjectPages.DAL.php:1133
+msgid ""
+"This is an example project log, it lets you talk about changes or events that "
+"occur during your project."
+msgstr ""
+"This is an example project log, it lets you talk about changes or events that "
+"occur during your project."
+
+#: includes/ProjectPages.MetaBoxes.php:72
+#: includes/ProjectPages.MetaBoxes.php:492
+msgid "Publish"
+msgstr "Publish"
+
+#: includes/ProjectPages.MetaBoxes.php:107
+msgid "Save ME"
+msgstr "Save ME"
+
+#: includes/ProjectPages.MetaBoxes.php:134
+msgid "Preview Changes"
+msgstr "Preview Changes"
+
+#: includes/ProjectPages.MetaBoxes.php:136
+msgid "Preview"
+msgstr "Preview"
+
+#: includes/ProjectPages.MetaBoxes.php:143
+msgid "(opens in a new tab)"
+msgstr "(opens in a new tab)"
+
+#: includes/ProjectPages.MetaBoxes.php:167
+msgid "Status:"
+msgstr "Status:"
+
+#: includes/ProjectPages.MetaBoxes.php:172
+#: includes/ProjectPages.MetaBoxes.php:217
+msgid "Privately Published"
+msgstr "Privately Published"
+
+#: includes/ProjectPages.MetaBoxes.php:175
+#: includes/ProjectPages.MetaBoxes.php:215
+msgid "Published"
+msgstr "Published"
+
+#: includes/ProjectPages.MetaBoxes.php:178
+#: includes/ProjectPages.MetaBoxes.php:219
+msgid "Scheduled"
+msgstr "Scheduled"
+
+#: includes/ProjectPages.MetaBoxes.php:181
+#: includes/ProjectPages.MetaBoxes.php:221
+msgid "Pending Review"
+msgstr "Pending Review"
+
+#: includes/ProjectPages.MetaBoxes.php:185
+#: includes/ProjectPages.MetaBoxes.php:223
+#: includes/ProjectPages.MetaBoxes.php:225
+msgid "Draft"
+msgstr "Draft"
+
+#: includes/ProjectPages.MetaBoxes.php:198
+#: includes/ProjectPages.MetaBoxes.php:260
+#: includes/ProjectPages.MetaBoxes.php:355
+msgid "Edit"
+msgstr "Edit"
+
+#: includes/ProjectPages.MetaBoxes.php:201
+msgid "Edit status"
+msgstr "Edit status"
+
+#: includes/ProjectPages.MetaBoxes.php:210
+msgid "Set status"
+msgstr "Set status"
+
+#: includes/ProjectPages.MetaBoxes.php:228
+#: includes/ProjectPages.MetaBoxes.php:286
+msgid "OK"
+msgstr "OK"
+
+#: includes/ProjectPages.MetaBoxes.php:229
+#: includes/ProjectPages.MetaBoxes.php:287
+#: includes/ProjectPages.MetaBoxes.php:1114
+msgid "Cancel"
+msgstr "Cancel"
+
+#: includes/ProjectPages.MetaBoxes.php:237
+msgid "Visibility:"
+msgstr "Visibility:"
+
+#: includes/ProjectPages.MetaBoxes.php:243
+#: includes/ProjectPages.MetaBoxes.php:283
+msgid "Private"
+msgstr "Private"
+
+#: includes/ProjectPages.MetaBoxes.php:246
+#: includes/ProjectPages.MetaBoxes.php:280
+msgid "Password protected"
+msgstr "Password protected"
+
+#: includes/ProjectPages.MetaBoxes.php:249
+msgid "Public, Sticky"
+msgstr "Public, Sticky"
+
+#: includes/ProjectPages.MetaBoxes.php:252
+#: includes/ProjectPages.MetaBoxes.php:274
+msgid "Public"
+msgstr "Public"
+
+#: includes/ProjectPages.MetaBoxes.php:263
+msgid "Edit visibility"
+msgstr "Edit visibility"
+
+#: includes/ProjectPages.MetaBoxes.php:277
+msgid "Stick this post to the front page"
+msgstr "Stick this post to the front page"
+
+#: includes/ProjectPages.MetaBoxes.php:281
+msgid "Password:"
+msgstr "Password:"
+
+#: includes/ProjectPages.MetaBoxes.php:295
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: includes/ProjectPages.MetaBoxes.php:297
+msgid "M j, Y"
+msgstr "M j, Y"
+
+#: includes/ProjectPages.MetaBoxes.php:299
+msgid "H:i"
+msgstr "H:i"
+
+#: includes/ProjectPages.MetaBoxes.php:304
+#, php-format
+msgid "Scheduled for: %s"
+msgstr "Scheduled for: %s"
+
+#: includes/ProjectPages.MetaBoxes.php:307
+#, php-format
+msgid "Live: %s"
+msgstr "Live: %s"
+
+#: includes/ProjectPages.MetaBoxes.php:309
+#: includes/ProjectPages.MetaBoxes.php:323
+msgid "Publish <b>immediately</b>"
+msgstr "Publish <b>immediately</b>"
+
+#: includes/ProjectPages.MetaBoxes.php:312
+#, php-format
+msgid "Schedule for: %s"
+msgstr "Schedule for: %s"
+
+#: includes/ProjectPages.MetaBoxes.php:315
+#, php-format
+msgid "Publish on: %s"
+msgstr "Publish on: %s"
+
+#: includes/ProjectPages.MetaBoxes.php:336
+#, php-format
+msgid "Revisions: %s"
+msgstr "Revisions: %s"
+
+#: includes/ProjectPages.MetaBoxes.php:341
+msgid "Browse revisions"
+msgstr "Browse revisions"
+
+#: includes/ProjectPages.MetaBoxes.php:359
+msgid "Edit date and time"
+msgstr "Edit date and time"
+
+#: includes/ProjectPages.MetaBoxes.php:367
+msgid "Date and time"
+msgstr "Date and time"
+
+#: includes/ProjectPages.MetaBoxes.php:394
+#: includes/ProjectPages.MetaBoxes.php:399
+msgid "Check out my project: "
+msgstr "Check out my project: "
+
+#: includes/ProjectPages.MetaBoxes.php:396
+msgid "Share on X"
+msgstr "Share on X"
+
+#: includes/ProjectPages.MetaBoxes.php:397
+msgid "Share on Facebook"
+msgstr "Share on Facebook"
+
+#: includes/ProjectPages.MetaBoxes.php:398
+msgid "Share on LinkedIn"
+msgstr "Share on LinkedIn"
+
+#: includes/ProjectPages.MetaBoxes.php:399
+msgid "Share on Telegram"
+msgstr "Share on Telegram"
+
+#: includes/ProjectPages.MetaBoxes.php:409
+msgid "Publish on ProjectPages.io"
+msgstr "Publish on ProjectPages.io"
+
+#: includes/ProjectPages.MetaBoxes.php:419
+#, php-format
+msgid ""
+"This draft comes from your <a href=\"%s\">unpublished customization changes</"
+"a>. You can edit, but there is no need to publish now. It will be published "
+"automatically with those changes."
+msgstr ""
+"This draft comes from your <a href=\"%s\">unpublished customization changes</"
+"a>. You can edit, but there is no need to publish now. It will be published "
+"automatically with those changes."
+
+#: includes/ProjectPages.MetaBoxes.php:468
+msgid "Delete permanently"
+msgstr "Delete permanently"
+
+#: includes/ProjectPages.MetaBoxes.php:470
+msgid "Move to Trash"
+msgstr "Move to Trash"
+
+#: includes/ProjectPages.MetaBoxes.php:487
+msgid "Schedule"
+msgstr "Schedule"
+
+#: includes/ProjectPages.MetaBoxes.php:498
+msgid "Submit for Review"
+msgstr "Submit for Review"
+
+#: includes/ProjectPages.MetaBoxes.php:504
+msgid "Update"
+msgstr "Update"
+
+#: includes/ProjectPages.MetaBoxes.php:544
+msgid "Project Details"
+msgstr "Project Details"
+
+#: includes/ProjectPages.MetaBoxes.php:567
+msgid "Bi-line"
+msgstr "Bi-line"
+
+#: includes/ProjectPages.MetaBoxes.php:585
+msgid "External Link Text"
+msgstr "External Link Text"
+
+#: includes/ProjectPages.MetaBoxes.php:591
+msgid "External Link URL"
+msgstr "External Link URL"
+
+#: includes/ProjectPages.MetaBoxes.php:597
+msgid "Header Type"
+msgstr "Header Type"
+
+#: includes/ProjectPages.MetaBoxes.php:608
+msgid "Header Background Colour"
+msgstr "Header Background Colour"
+
+#: includes/ProjectPages.MetaBoxes.php:614
+msgid "Header Image URL"
+msgstr "Header Image URL"
+
+#: includes/ProjectPages.MetaBoxes.php:620
+msgid "Header Video URL"
+msgstr "Header Video URL"
+
+#: includes/ProjectPages.MetaBoxes.php:626
+msgid "Header Gradient"
+msgstr "Header Gradient"
+
+#: includes/ProjectPages.MetaBoxes.php:650
+#, php-format
+msgid "Gradient %s"
+msgstr "Gradient %s"
+
+#: includes/ProjectPages.MetaBoxes.php:660
+#, php-format
+msgid "Gradient <span>%s</span>"
+msgstr "Gradient <span>%s</span>"
+
+#: includes/ProjectPages.MetaBoxes.php:778
+msgid "Project Summary"
+msgstr "Project Summary"
+
+#: includes/ProjectPages.MetaBoxes.php:852
+msgid "Project Body"
+msgstr "Project Body"
+
+#: includes/ProjectPages.MetaBoxes.php:956
+msgid "No logs yet"
+msgstr "No logs yet"
+
+#: includes/ProjectPages.MetaBoxes.php:958
+msgid ""
+"Logs allow you to track the various stages or developments in your project."
+msgstr ""
+"Logs allow you to track the various stages or developments in your project."
+
+#: includes/ProjectPages.MetaBoxes.php:962
+#: includes/ProjectPages.MetaBoxes.php:978
+msgid "Add a log"
+msgstr "Add a log"
+
+#: includes/ProjectPages.MetaBoxes.php:966
+msgid "First save your project, then you can add logs."
+msgstr "First save your project, then you can add logs."
+
+#: includes/ProjectPages.MetaBoxes.php:990
+msgid "Add a log entry"
+msgstr "Add a log entry"
+
+#: includes/ProjectPages.MetaBoxes.php:995
+#: includes/ProjectPages.MetaBoxes.php:1054
+msgid "Log Title:"
+msgstr "Log Title:"
+
+#: includes/ProjectPages.MetaBoxes.php:1004
+#: includes/ProjectPages.MetaBoxes.php:1063
+msgid "Log Date:"
+msgstr "Log Date:"
+
+#: includes/ProjectPages.MetaBoxes.php:1017
+#: includes/ProjectPages.MetaBoxes.php:1076
+msgid "Log Icon:"
+msgstr "Log Icon:"
+
+#: includes/ProjectPages.MetaBoxes.php:1021
+#: includes/ProjectPages.MetaBoxes.php:1080
+msgid "Choose Icon"
+msgstr "Choose Icon"
+
+#: includes/ProjectPages.MetaBoxes.php:1030
+#: includes/ProjectPages.MetaBoxes.php:1089
+msgid "Log:"
+msgstr "Log:"
+
+#: includes/ProjectPages.MetaBoxes.php:1035
+#: includes/ProjectPages.MetaBoxes.php:1095
+msgid "Close"
+msgstr "Close"
+
+#: includes/ProjectPages.MetaBoxes.php:1036
+msgid "Add Log"
+msgstr "Add Log"
+
+#: includes/ProjectPages.MetaBoxes.php:1049
+msgid "Edit log entry"
+msgstr "Edit log entry"
+
+#: includes/ProjectPages.MetaBoxes.php:1094
+#: includes/ProjectPages.MetaBoxes.php:1106
+#: includes/ProjectPages.MetaBoxes.php:1115
+msgid "Delete Log"
+msgstr "Delete Log"
+
+#: includes/ProjectPages.MetaBoxes.php:1096
+msgid "Update Log"
+msgstr "Update Log"
+
+#: includes/ProjectPages.MetaBoxes.php:1110
+msgid "Are you sure you want to delete this log?"
+msgstr "Are you sure you want to delete this log?"
+
+#: includes/ProjectPages.MetaBoxes.php:1231
+#: includes/ProjectPages.MetaBoxes.php:1254 pages/deactivation-feedback.php:52
+#: pages/welcome.php:123 pages/welcome.php:188 pages/welcome.php:206
+msgid "Give Feedback"
+msgstr "Give Feedback"
+
+#: includes/ProjectPages.MetaBoxes.php:1250
+msgid "Do you like Project Pages?"
+msgstr "Do you like Project Pages?"
+
+#: includes/ProjectPages.MetaBoxes.php:1252
+msgid ""
+"Project Pages is a side project made for the ❤️ of making. It really helps me "
+"to hear what you think, so please do give feedback by clicking the button "
+"below:"
+msgstr ""
+"Project Pages is a side project made for the ❤️ of making. It really helps me "
+"to hear what you think, so please do give feedback by clicking the button "
+"below:"
+
+#: includes/ProjectPages.Pre.Init.php:28
+msgid "Default:"
+msgstr "Default:"
+
+#: includes/ProjectPages.Pre.Init.php:29
+msgid "Example URLs:"
+msgstr "Example URLs:"
+
+#: includes/ProjectPages.Pre.Init.php:30
+msgid "Projects Archive:"
+msgstr "Projects Archive:"
+
+#: includes/ProjectPages.Pre.Init.php:31
+msgid "Project Example:"
+msgstr "Project Example:"
+
+#: includes/ProjectPages.Pre.Init.php:35
+msgid "View Permalink Guide"
+msgstr "View Permalink Guide"
+
+#: includes/ProjectPages.Pre.Init.php:48
+msgid "Child theme ready for templates"
+msgstr "Child theme ready for templates"
+
+#: includes/ProjectPages.Pre.Init.php:52
+msgid ""
+"You are not using a child theme. If you install custom templates they may get "
+"overwritten when you update your theme."
+msgstr ""
+"You are not using a child theme. If you install custom templates they may get "
+"overwritten when you update your theme."
+
+#: includes/ProjectPages.Pre.Init.php:59 includes/ProjectPages.Pre.Init.php:66
+#: includes/ProjectPages.Pre.Init.php:73
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/ProjectPages.Pre.Init.php:62 includes/ProjectPages.Pre.Init.php:69
+#: includes/ProjectPages.Pre.Init.php:76
+msgid "Theme"
+msgstr "Theme"
+
+#: includes/ProjectPages.Pre.Init.php:82 includes/ProjectPages.Pre.Init.php:100
+msgid "Current Templates:"
+msgstr "Current Templates:"
+
+#: includes/ProjectPages.Pre.Init.php:85 includes/ProjectPages.Pre.Init.php:103
+msgid "Single:"
+msgstr "Single:"
+
+#: includes/ProjectPages.Pre.Init.php:85 includes/ProjectPages.Pre.Init.php:86
+#: includes/ProjectPages.Pre.Init.php:87 includes/ProjectPages.Pre.Init.php:103
+#: includes/ProjectPages.Pre.Init.php:104 includes/ProjectPages.Pre.Init.php:105
+msgid "None Available!"
+msgstr "None Available!"
+
+#: includes/ProjectPages.Pre.Init.php:86 includes/ProjectPages.Pre.Init.php:104
+msgid "Archive:"
+msgstr "Archive:"
+
+#: includes/ProjectPages.Pre.Init.php:87 includes/ProjectPages.Pre.Init.php:105
+msgid "Tags:"
+msgstr "Tags:"
+
+#: includes/ProjectPages.Pre.Init.php:113
+msgid "View Templates Guide"
+msgstr "View Templates Guide"
+
+#: includes/blocks/_project-card.php:38 includes/blocks/status-card.php:62
+msgid "Status: "
+msgstr "Status: "
+
+#: includes/blocks/_project-card.php:52 includes/blocks/status-card.php:64
+#: templates/archive-projectpage_DEFAULT.php:428
+#: templates/archive-projectpage_DEFAULT.php:525
+#: templates/archive-projectpage_DEFAULT.php:613
+#: templates/single-projectpage_DEFAULT.php:725
+msgid "Updated"
+msgstr "Updated"
+
+#: includes/blocks/_project-card.php:59
+msgid "View Project"
+msgstr "View Project"
+
+#: includes/blocks/archive-body.php:90
+#: templates/archive-projectpage_DEFAULT.php:507
+msgid "Active Projects"
+msgstr "Active Projects"
+
+#: includes/blocks/archive-body.php:96
+msgid "Completed/Archived Projects"
+msgstr "Completed/Archived Projects"
+
+#: includes/blocks/archive-body.php:125
+msgid "There are currently no projects to display."
+msgstr "There are currently no projects to display."
+
+#: includes/blocks/body.php:52 includes/blocks/logs.php:81
+msgid "There was an error displaying this project."
+msgstr "There was an error displaying this project."
+
+#: includes/blocks/breadcrumb.php:39
+#: templates/archive-projectpage_DEFAULT.php:20
+#: templates/archive-projectpage_DEFAULT.php:26
+#: templates/archive-projectpage_DEFAULT.php:30
+#: templates/projectpages-footer.php:147
+#: templates/single-projectpage_DEFAULT.php:54
+#: templates/taxonomy-projectpage_DEFAULT.php:20
+#: templates/taxonomy-projectpage_DEFAULT.php:28
+#: templates/taxonomy-projectpage_DEFAULT.php:32
+msgid "Projects"
+msgstr "Projects"
+
+#: includes/blocks/breadcrumb.php:119
+#, php-format
+msgid "Tagged \"%s\""
+msgstr "Tagged \"%s\""
+
+#: includes/blocks/breadcrumb.php:148
+msgid "Example"
+msgstr "Example"
+
+#: includes/blocks/breadcrumb.php:157
+msgid ""
+"Project Pages Breadcrumb: This block is not intended for use in pages outside "
+"of the Project Pages ecosystem."
+msgstr ""
+"Project Pages Breadcrumb: This block is not intended for use in pages outside "
+"of the Project Pages ecosystem."
+
+#: includes/blocks/hero-archives-tags.php:165
+#, php-format
+msgid "Browse the %1$s Projects on %2$s"
+msgstr "Browse the %1$s Projects on %2$s"
+
+#: includes/blocks/hero-archives-tags.php:173
+#, php-format
+msgid "Projects tagged %s"
+msgstr "Projects tagged %s"
+
+#: includes/blocks/hero-archives-tags.php:174
+#, php-format
+msgid "Browse %s Projects tagged \"%s\""
+msgstr "Browse %s Projects tagged \"%s\""
+
+#: includes/blocks/hero-archives-tags.php:279
+msgid "Projects Share"
+msgstr "Projects Share"
+
+#: includes/blocks/hero.php:68
+msgid "There was an error loading this Project"
+msgstr "There was an error loading this Project"
+
+#: includes/blocks/hero.php:318
+msgid "Project Title Example"
+msgstr "Project Title Example"
+
+#: includes/blocks/hero.php:321
+msgid "Project Bi-line here...."
+msgstr "Project Bi-line here...."
+
+#: includes/blocks/hero.php:322
+msgid "Example Project Share"
+msgstr "Example Project Share"
+
+#: includes/blocks/logs.php:62 includes/blocks/recent-project-logs.php:69
+#: templates/single-projectpage_DEFAULT.php:845
+msgid "Log"
+msgstr "Log"
+
+#: includes/blocks/logs.php:72
+msgid "This project doesn't have any logs yet"
+msgstr "This project doesn't have any logs yet"
+
+#: includes/blocks/query-loop.php:59
+msgid "No projects found."
+msgstr "No projects found."
+
+#: includes/blocks/recent-project-logs.php:43
+msgid "(Untitled Project)"
+msgstr "(Untitled Project)"
+
+#: includes/blocks/recent-project-logs.php:99
+msgid "View All Projects"
+msgstr "View All Projects"
+
+#: includes/blocks/status-card.php:100
+#: templates/single-projectpage_DEFAULT.php:737
+#: templates/taxonomy-projectpage_DEFAULT.php:32
+msgid "Tagged"
+msgstr "Tagged"
+
+#: includes/blocks/status-card.php:117
+#, php-format
+msgid "%s x "
+msgstr "%s x "
+
+#: includes/blocks/status-card.php:125
+msgid "No Project Logs"
+msgstr "No Project Logs"
+
+#: includes/blocks/status-card.php:141
+msgid "There was an error displaying this project card"
+msgstr "There was an error displaying this project card"
+
+#: includes/blocks/summary.php:49 includes/blocks/summary.php:55
+#: templates/single-projectpage_DEFAULT.php:690
+msgid "Summary"
+msgstr "Summary"
+
+#: includes/blocks/summary.php:56
+msgid "There was an error displaying this project summary"
+msgstr "There was an error displaying this project summary"
+
+#: pages/deactivation-feedback.php:45
+msgid "Before you go..."
+msgstr "Before you go..."
+
+#: pages/deactivation-feedback.php:48
+msgid ""
+"Thanks for giving Project Pages a try. I don't want to hold you up, but if "
+"you have any feedback at all I'd really appreciate you dropping it below. I'm "
+"actively making this for you, and take everything you say onboard 👍"
+msgstr ""
+"Thanks for giving Project Pages a try. I don't want to hold you up, but if "
+"you have any feedback at all I'd really appreciate you dropping it below. I'm "
+"actively making this for you, and take everything you say onboard 👍"
+
+#: pages/deactivation-feedback.php:51
+msgid "Not right now"
+msgstr "Not right now"
+
+#: pages/welcome.php:38
+msgid "Make a Project Page"
+msgstr "Make a Project Page"
+
+#: pages/welcome.php:39
+msgid "Make your first project page."
+msgstr "Make your first project page."
+
+#: pages/welcome.php:41
+msgid "Add a Project Page"
+msgstr "Add a Project Page"
+
+#: pages/welcome.php:43
+#, php-format
+msgid "Great, you've made %s Product pages, you're awesome!"
+msgstr "Great, you've made %s Product pages, you're awesome!"
+
+#: pages/welcome.php:48
+msgid "View a Project Page"
+msgstr "View a Project Page"
+
+#: pages/welcome.php:49
+msgid "Check yourself out! View a project page."
+msgstr "Check yourself out! View a project page."
+
+#: pages/welcome.php:51
+msgid "View a (random) Project Page"
+msgstr "View a (random) Project Page"
+
+#: pages/welcome.php:53
+msgid "Awesome, looks like your Project Page has been viewed."
+msgstr "Awesome, looks like your Project Page has been viewed."
+
+#: pages/welcome.php:58
+msgid "Add a Project Log"
+msgstr "Add a Project Log"
+
+#: pages/welcome.php:59
+msgid "Add a log entry to a Project Page."
+msgstr "Add a log entry to a Project Page."
+
+#: pages/welcome.php:61 pages/welcome.php:71
+msgid "Edit a Project"
+msgstr "Edit a Project"
+
+#: pages/welcome.php:63
+#, php-format
+msgid "You've got %s logs, well done. I hope you like this feature!"
+msgstr "You've got %s logs, well done. I hope you like this feature!"
+
+#: pages/welcome.php:68
+msgid "Add a Project Tag"
+msgstr "Add a Project Tag"
+
+#: pages/welcome.php:69
+msgid "Add a tag to a Project Page."
+msgstr "Add a tag to a Project Page."
+
+#: pages/welcome.php:73
+msgid "Tags aplenty, good work."
+msgstr "Tags aplenty, good work."
+
+#: pages/welcome.php:78
+msgid "Use a Project Page block"
+msgstr "Use a Project Page block"
+
+#: pages/welcome.php:79
+msgid ""
+"Try using a Project Page block in one your pages. The log summary one is good!"
+msgstr ""
+"Try using a Project Page block in one your pages. The log summary one is good!"
+
+#: pages/welcome.php:81
+msgid "Edit a page"
+msgstr "Edit a page"
+
+#: pages/welcome.php:83
+msgid "Ah sweet, I can see you've got a Project Page block in there. Good job."
+msgstr "Ah sweet, I can see you've got a Project Page block in there. Good job."
+
+#: pages/welcome.php:88
+msgid "Check the settings"
+msgstr "Check the settings"
+
+#: pages/welcome.php:89
+msgid ""
+"Check through the settings and make sure everything fits what you're using "
+"Project Pages for."
+msgstr ""
+"Check through the settings and make sure everything fits what you're using "
+"Project Pages for."
+
+#: pages/welcome.php:91
+msgid "View Settings"
+msgstr "View Settings"
+
+#: pages/welcome.php:93
+msgid "Nice to know you've checked them over."
+msgstr "Nice to know you've checked them over."
+
+#: pages/welcome.php:98
+msgid "Use Templates"
+msgstr "Use Templates"
+
+#: pages/welcome.php:99
+msgid ""
+"You can modify the templates in Project Pages by copying them to your child "
+"theme"
+msgstr ""
+"You can modify the templates in Project Pages by copying them to your child "
+"theme"
+
+#: pages/welcome.php:101
+msgid "View Template Settings"
+msgstr "View Template Settings"
+
+#: pages/welcome.php:103
+msgid "Great, you're using custom templates!"
+msgstr "Great, you're using custom templates!"
+
+#: pages/welcome.php:114
+msgid "Join the Community"
+msgstr "Join the Community"
+
+#: pages/welcome.php:115
+msgid ""
+"Enter your email here to get updates on Project Pages and join the community."
+msgstr ""
+"Enter your email here to get updates on Project Pages and join the community."
+
+#: pages/welcome.php:117
+msgid "Get Updates"
+msgstr "Get Updates"
+
+#: pages/welcome.php:124
+msgid ""
+"This plugin is made for those who make! I'd love to hear how you're using it, "
+"or would like to use it. Please do give feedback, it helps this get better!"
+msgstr ""
+"This plugin is made for those who make! I'd love to hear how you're using it, "
+"or would like to use it. Please do give feedback, it helps this get better!"
+
+#: pages/welcome.php:126
+msgid "Give Feedback ❤️"
+msgstr "Give Feedback ❤️"
+
+#: pages/welcome.php:132
+msgid "Leave a Review"
+msgstr "Leave a Review"
+
+#: pages/welcome.php:133
+msgid ""
+"Your review really matters, I'd love to keep working on this for you, and "
+"your positive review helps that happen!"
+msgstr ""
+"Your review really matters, I'd love to keep working on this for you, and "
+"your positive review helps that happen!"
+
+#: pages/welcome.php:135
+msgid "Review Project Pages"
+msgstr "Review Project Pages"
+
+#: pages/welcome.php:141
+msgid "Follow @ProjectPagesio"
+msgstr "Follow @ProjectPagesio"
+
+#: pages/welcome.php:142
+msgid "Follow Project Pages on X and watch as we grow!"
+msgstr "Follow Project Pages on X and watch as we grow!"
+
+#: pages/welcome.php:144
+msgid "Follow @projectpagesio"
+msgstr "Follow @projectpagesio"
+
+#: pages/welcome.php:150 pages/welcome.php:153
+msgid "Follow @woodyhayday"
+msgstr "Follow @woodyhayday"
+
+#: pages/welcome.php:151
+msgid "👋 I'm Woody Hayday and I made this for you! Follow me on X :)"
+msgstr "👋 I'm Woody Hayday and I made this for you! Follow me on X :)"
+
+#: pages/welcome.php:163
+msgid "Great to have you! Please check your email to confirm"
+msgstr "Great to have you! Please check your email to confirm"
+
+#: pages/welcome.php:171 pages/welcome.php:182
+msgid "Welcome"
+msgstr "Welcome"
+
+#: pages/welcome.php:204
+msgid "Welcome to Project Pages"
+msgstr "Welcome to Project Pages"
+
+#: pages/welcome.php:205
+msgid ""
+"It's great to have you here! I made this plugin for those of us who make "
+"stuff and want to share what we've made with the world. I want Project Pages "
+"to help you document your creator journey, and empowers you to make even "
+"cooler projects in the future."
+msgstr ""
+"It's great to have you here! I made this plugin for those of us who make "
+"stuff and want to share what we've made with the world. I want Project Pages "
+"to help you document your creator journey, and empowers you to make even "
+"cooler projects in the future."
+
+#: pages/welcome.php:210
+msgid "Join the Project Pages community:"
+msgstr "Join the Project Pages community:"
+
+#: pages/welcome.php:213 pages/welcome.php:323
+msgid "Email Address"
+msgstr "Email Address"
+
+#: pages/welcome.php:215 pages/welcome.php:325
+msgid "Please use a valid email"
+msgstr "Please use a valid email"
+
+#: pages/welcome.php:220 pages/welcome.php:330
+msgid ""
+"I solemnly swear to keep making awesome stuff and sharing it with others."
+msgstr ""
+"I solemnly swear to keep making awesome stuff and sharing it with others."
+
+#: pages/welcome.php:223 pages/welcome.php:333
+msgid "Join Project Makers!"
+msgstr "Join Project Makers!"
+
+#: pages/welcome.php:225 pages/welcome.php:335
+#, php-format
+msgid ""
+"There was a problem joining the community. Please try again, or <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr ""
+"There was a problem joining the community. Please try again, or <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+
+#: pages/welcome.php:228
+msgid "Created by @woodyhayday"
+msgstr "Created by @woodyhayday"
+
+#: pages/welcome.php:229
+msgid "I promise to never spam you."
+msgstr "I promise to never spam you."
+
+#: pages/welcome.php:237
+#, php-format
+msgid "%s Steps to Project Pages Mastery"
+msgstr "%s Steps to Project Pages Mastery"
+
+#: pages/welcome.php:285
+msgid "You're Awesome!"
+msgstr "You're Awesome!"
+
+#: pages/welcome.php:287
+msgid ""
+"Thanks for using my little plugin to share the things you make with the world!"
+msgstr ""
+"Thanks for using my little plugin to share the things you make with the world!"
+
+#: pages/welcome.php:288
+msgid ""
+"There are some bonus steps below if you're into that. Otherwise, let's "
+"connect:"
+msgstr ""
+"There are some bonus steps below if you're into that. Otherwise, let's "
+"connect:"
+
+#: pages/welcome.php:302
+msgid "Bonus Steps"
+msgstr "Bonus Steps"
+
+#: templates/archive-projectpage_DEFAULT.php:378
+#, php-format
+msgid "View all projects in %s"
+msgstr "View all projects in %s"
+
+#: templates/archive-projectpage_DEFAULT.php:482
+#: templates/archive-projectpage_DEFAULT.php:579
+#: templates/archive-projectpage_DEFAULT.php:667
+#: templates/archive-projectpage_DEFAULT.php:711
+#: templates/archive-projectpage_USETHEMESTYLES.php:38
+#: templates/taxonomy-projectpage_DEFAULT.php:373
+msgid "Previous page"
+msgstr "Previous page"
+
+#: templates/archive-projectpage_DEFAULT.php:483
+#: templates/archive-projectpage_DEFAULT.php:580
+#: templates/archive-projectpage_DEFAULT.php:668
+#: templates/archive-projectpage_DEFAULT.php:712
+#: templates/archive-projectpage_USETHEMESTYLES.php:39
+#: templates/taxonomy-projectpage_DEFAULT.php:374
+msgid "Next page"
+msgstr "Next page"
+
+#: templates/archive-projectpage_DEFAULT.php:484
+#: templates/archive-projectpage_DEFAULT.php:581
+#: templates/archive-projectpage_DEFAULT.php:669
+#: templates/archive-projectpage_DEFAULT.php:713
+#: templates/archive-projectpage_USETHEMESTYLES.php:40
+#: templates/taxonomy-projectpage_DEFAULT.php:375
+msgid "Page"
+msgstr "Page"
+
+#: templates/archive-projectpage_DEFAULT.php:596
+msgid "Archived/Completed Projects"
+msgstr "Archived/Completed Projects"
+
+#: templates/projectpages-footer.php:21
+msgid "Trending Projects"
+msgstr "Trending Projects"
+
+#: templates/projectpages-footer.php:62
+msgid "Related Projects"
+msgstr "Related Projects"
+
+#: templates/single-projectpage_DEFAULT.php:58
+msgid "Project"
+msgstr "Project"
+
+#: templates/single-projectpage_DEFAULT.php:763
+msgid "View"
+msgstr "View"
+
+#: templates/taxonomy-projectpage_DEFAULT.php:311
+#: templates/taxonomy-projectpage_DEFAULT.php:394
+msgid "Projects Tagged"
+msgstr "Projects Tagged"

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "project-pages-blocks/recent-logs",
+  "version": "0.1.0",
+  "title": "Recent Logs (Project Pages)",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Display recent update logs from your Project Pages.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "color": {
+      "gradients": true
+    }
+  },
+  "textdomain": "projectpages",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "none"
+    },
+    "numberOfLogs": {
+      "type": "string",
+      "default": "3"
+    },
+    "showHeading": {
+      "type": "boolean",
+      "default": "true"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Recent Project Updates"
+    },
+    "showDate": {
+      "type": "boolean"
+    },
+    "showSeeAll": {
+      "type": "boolean",
+      "default": "true"
+    },
+    "seeAllLabel": {
+      "type": "string",
+      "default": "View All Projects"
+    }
+  },
+  "styles": [
+    {
+      "name": "default",
+      "label": "Default",
+      "isDefault": true
+    },
+    {
+      "name": "footer",
+      "label": "Footer Widget"
+    },
+    {
+      "name": "lightblue",
+      "label": "Light Blue"
+    },
+    {
+      "name": "darkblue",
+      "label": "Dark Blue"
+    },
+    {
+      "name": "orange",
+      "label": "Hot Orange"
+    },
+    {
+      "name": "pink",
+      "label": "Pink"
+    },
+    {
+      "name": "green",
+      "label": "Green"
+    }
+  ]
+}

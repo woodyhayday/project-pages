@@ -1,0 +1,135 @@
+.project-card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: rgba(0, 0, 0, 0.176);
+    --bs-card-border-radius: 0.375rem;
+    //--bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(0.375rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    //--bs-card-cap-color: ;
+    //--bs-card-height: ;
+    //--bs-card-color: ;
+    --bs-card-bg: #fff;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    //height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: #FFF;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 6px;
+
+    // wh
+    max-width: 300px;
+    margin: 1em 0.5em;
+
+}
+
+.project-card-img, .project-card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #d2d2d2;
+    display: flex;    
+}
+
+.project-card-img, .project-card-img-bottom, .project-card-img-top {
+    width: 100%;
+}
+
+.project-card-body {
+    flex: 1 1 auto;
+    padding: 16px;
+    color: rgb(17, 17, 17);
+
+    // wh
+    position:relative;
+}
+
+.project-card-title {
+    margin-bottom: 1em;
+
+    // wh
+    display:inline;
+}
+
+
+.project-page-card-image {
+
+    text-align: center;
+
+    img {
+    
+        max-width: 50%;
+        max-height: 160px;
+        border-radius: 50%;
+
+    }
+}
+
+.project-pages-cta {
+
+    text-align: center;
+
+    a {
+
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+
+    }
+}
+
+
+.project-card-footer {
+
+    margin-bottom: 0.7em;
+
+    .project-card-footer-row {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .project-card-footer-column {
+          
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex: 1;
+            padding: 0 1em;
+
+            a {
+
+                //margin-bottom: 0.7em;
+            }
+
+        }
+
+    }
+
+
+    .project-pages-archive-status {
+        width: auto;
+        display: inline-block;
+        padding: 0.5em 0.7em;
+        line-height: 1em;
+        border-radius: 0.2em;
+        font-size: 0.8em;
+
+        /* position bottom left:
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0;
+        border-bottom-left-radius: 5px;
+        */
+    }
+}

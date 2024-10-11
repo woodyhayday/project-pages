@@ -1,0 +1,63 @@
+.project-pages-archive {
+
+	padding:1em;
+
+	h2 {
+
+		text-align: center;
+
+	}
+
+	.project-card-img, 
+	.project-card-img img, 
+	.project-card-img-bottom, 
+	.project-card-img-bottom img, 
+	.project-card-img-top,
+	.project-card-img-top img {
+
+	    max-width: 100%;
+	    text-align: center;
+	    width: 100%;
+	    object-fit: cover;
+
+	}
+	.project-card-img img, 
+	.project-card-img-top img {
+	    border-top-left-radius: var(--bs-card-inner-border-radius);
+	    border-top-right-radius: var(--bs-card-inner-border-radius);
+	}
+
+	.project-card.body {
+		border-top: 1px solid rgba(34, 36, 38, .1);
+		position:relative; // needed for status icon
+
+	}
+	.project-card.text {
+
+		display: -webkit-box; 
+	    -webkit-box-orient: vertical; 
+	    -webkit-line-clamp: 3; 
+	    overflow: hidden; 
+	    text-overflow: ellipsis; 
+
+	}
+
+	a.project-page-h5 {
+		text-decoration: none;
+
+		h5 {
+			font-weight:700;
+		}
+	}
+	a.project-page-h5:hover {
+
+	}
+
+	.project-pages-meta {
+
+		text-align: center;
+
+
+	}
+
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "project-pages-blocks/tag-cloud",
+  "version": "0.1.0",
+  "title": "Tag Cloud (Project Pages)",
+  "category": "project-pages-blocks",
+  "icon": "tag",
+  "description": "Display a tag list on Project Pages.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "color": true
+  },
+  "textdomain": "projectpages",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "none"
+    },
+    "label": {
+      "type": "string",
+      "default": "Tags:"
+    },
+    "hideEmpty": {
+      "type": "boolean",
+      "default": true
+    },
+    "specifyTags": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

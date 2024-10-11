@@ -1,0 +1,112 @@
+
+.project-pages-ribbon {
+
+    display: inline-block;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 0 .14285714em;
+    background-color: #e8e8e8;
+    background-image: none;
+    padding: .5833em .833em;
+    color: rgba(0, 0, 0, .6);
+    text-transform: none;
+    font-weight: 700;
+    border: 0 solid transparent;
+    border-radius: .28571429rem;
+    transition: background .1s ease;
+
+    font-size: .85714286rem;
+
+    position: relative;
+    margin: 0;
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    border-radius: 0 .28571429rem .28571429rem 0;
+    border-color: rgba(0, 0, 0, .15);
+
+        left: calc(-1rem - 1em); //left: calc(-1rem - 1.2em);
+    margin-right: -0.8em;
+    padding-left: calc(1rem + 0.8em);
+    padding-right: 0.8em;
+
+
+    background-color: #2185d0 !important;
+    border-color: #2185d0 !important;
+    color: #fff !important;
+
+        border-color: #1a69a4 !important;
+
+}
+.project-pages-ribbon:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    background-color: transparent !important;
+    border-style: solid;
+    border-width: 0 0.8em 0.8em 0; // shrunk border-width: 0 1.2em 1.2em 0;
+    border-color: transparent;
+    border-right-color: inherit;
+    width: 0;
+    height: 0;
+}
+
+
+
+// colours
+.olive.project-pages-ribbon{
+    background-color:#D9E778!important;
+    border-color:#bdc96a!important;
+    color: #000 !important;
+}
+.red.project-pages-ribbon{
+    background-color:#FF695E!important;
+    border-color:#cc554b!important;
+}
+.orange.project-pages-ribbon{
+    background-color:#FF851B!important;
+    border-color:#cc554b!important;
+}
+.yellow.project-pages-ribbon{
+    background-color:#FFE21F!important;
+    border-color:#c8cc4b!important;
+}
+.green.project-pages-ribbon{
+    background-color:#2ECC40!important;
+    border-color:#25b036!important;
+}
+.teal.project-pages-ribbon{
+    background-color:#6DFFFF!important;
+    border-color: #61e6e6 !important;
+    color: #000 !important;
+}
+.blue.project-pages-ribbon{
+    background-color:#54C8FF!important;
+    border-color: #4aaddc !important;
+}
+.violet.project-pages-ribbon{
+    background-color:#A291FB!important;
+    border-color: #8275cb !important;
+}
+.purple.project-pages-ribbon{
+    background-color:#DC73FF!important;
+    border-color: #8275cb !important;
+}
+.pink.project-pages-ribbon{
+    background-color:#FF8EDF!important;
+    border-color: #d577ba !important;
+}
+.brown.project-pages-ribbon{
+    background-color:#D67C1C!important;
+    border-color: #a76116 !important;
+}
+.grey.project-pages-ribbon{
+    background-color:#DCDDDE!important;
+    border-color: #bec0c1 !important;
+    color: #000 !important;
+}
+.black.project-pages-ribbon{
+    background-color:#545454!important;
+    border-color: #2e2f2f !important;
+}

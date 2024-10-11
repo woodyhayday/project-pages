@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "project-pages-blocks/hero",
+  "version": "0.1.0",
+  "title": "Hero (Single - Project Pages)",
+  "category": "project-pages-blocks",
+  "icon": "superhero",
+  "description": "Display the Project Page hero.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "color": false
+  },
+  "textdomain": "projectpages",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "showBreadcrumbs": {
+      "type": "boolean",
+      "default": true
+    },
+    "showHomeLevel": {
+      "type": "boolean",
+      "default": false
+    },
+    "homeLabel": {
+      "type": "string",
+      "default": ""
+    },
+    "projectsLabel": {
+      "type": "string",
+      "default": "Projects"
+    },
+    "separator": {
+      "type": "string",
+      "default": ""
+    },
+    "heroTextColour": {
+      "type": "string",
+      "default": "#FFF"
+    },
+    "heroTextAltColour": {
+      "type": "string",
+      "default": "#CCC"
+    },
+    "bgImgUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "bgVidUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColour": {
+      "type": "string",
+      "default": "#000"
+    }
+  }
+}

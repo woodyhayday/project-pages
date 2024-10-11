@@ -1,0 +1,39 @@
+.project-pages-failed-form {
+  display: none;
+}
+
+#project-pages-welcome-steps .list-group-item .dashicons,
+#project-pages-bonus-steps .list-group-item .dashicons {
+  position: absolute;
+  font-size: 3em;
+  color: #9c9393;
+}
+#project-pages-welcome-steps .list-group-item .dashicons.success,
+#project-pages-bonus-steps .list-group-item .dashicons.success {
+  color: #0bb50b;
+}
+#project-pages-welcome-steps .project-pages-step-info,
+#project-pages-bonus-steps .project-pages-step-info {
+  margin-left: 3em;
+  padding: 0.8em;
+  padding-top: 0.3em;
+}
+#project-pages-welcome-steps .project-pages-step-desc,
+#project-pages-welcome-steps .checkbox,
+#project-pages-bonus-steps .project-pages-step-desc,
+#project-pages-bonus-steps .checkbox {
+  color: #6e77a9;
+}
+#project-pages-welcome-steps .checkbox,
+#project-pages-bonus-steps .checkbox {
+  font-size: 13px;
+}
+
+#project-pages-suggest-down {
+  margin-bottom: 3em;
+}
+#project-pages-suggest-down a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=ProjectPages.Home.min.css.map */

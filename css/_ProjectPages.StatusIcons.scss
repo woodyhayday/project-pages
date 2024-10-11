@@ -1,0 +1,356 @@
+
+span.project-pages-icon {
+    display: inline-block;
+    opacity: 1;
+    margin: 0 .25rem 0 0;
+    width: 1.18em;
+    height: 1em;
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+span.project-pages-icon.right.floated {
+
+	position: absolute;
+	top: 1px;
+	right: 1px;
+
+}
+span.project-pages-icon, span.project-pages-icons {
+    font-size: 1.8em;
+}
+span.bordered.project-pages-icon{
+	line-height:1;
+    vertical-align:baseline;
+    width:2em;
+    height:2em;
+    padding:.5em .41em!important;
+    box-shadow:0 0 0 .1em rgba(0,0,0,.1) inset
+}
+span.bordered.inverted.project-pages-icon{
+    border:none;
+    box-shadow:none
+}
+span.inverted.bordered.project-pages-icon,span.inverted.circular.project-pages-icon{
+    background-color:#1B1C1D!important;
+    color:#FFF!important
+}
+span.inverted.project-pages-icon{
+    color:#FFF
+}
+span.red.project-pages-icon{
+    color:#DB2828!important
+}
+span.inverted.red.project-pages-icon{
+    color:#FF695E!important
+}
+span.inverted.bordered.red.project-pages-icon,span.inverted.circular.red.project-pages-icon{
+    background-color:#DB2828!important;
+    color:#FFF!important
+}
+span.orange.project-pages-icon{
+    color:#F2711C!important
+}
+span.inverted.orange.project-pages-icon{
+    color:#FF851B!important
+}
+span.inverted.bordered.orange.project-pages-icon,span.inverted.circular.orange.project-pages-icon{
+    background-color:#F2711C!important;
+    color:#FFF!important
+}
+span.yellow.project-pages-icon{
+    color:#FBBD08!important
+}
+span.inverted.yellow.project-pages-icon{
+    color:#FFE21F!important
+}
+span.inverted.bordered.yellow.project-pages-icon,span.inverted.circular.yellow.project-pages-icon{
+    background-color:#FBBD08!important;
+    color:#FFF!important
+}
+span.olive.project-pages-icon{
+    color:#B5CC18!important
+}
+span.inverted.olive.project-pages-icon{
+    color:#D9E778!important
+}
+span.inverted.bordered.olive.project-pages-icon,span.inverted.circular.olive.project-pages-icon{
+    background-color:#B5CC18!important;
+    color:#FFF!important
+}
+span.green.project-pages-icon{
+    color:#21BA45!important
+}
+span.inverted.green.project-pages-icon{
+    color:#2ECC40!important
+}
+span.inverted.bordered.green.project-pages-icon,span.inverted.circular.green.project-pages-icon{
+    background-color:#21BA45!important;
+    color:#FFF!important
+}
+span.teal.project-pages-icon{
+    color:#00B5AD!important
+}
+span.inverted.teal.project-pages-icon{
+    color:#6DFFFF!important
+}
+span.inverted.bordered.teal.project-pages-icon,span.inverted.circular.teal.project-pages-icon{
+    background-color:#00B5AD!important;
+    color:#FFF!important
+}
+span.blue.project-pages-icon{
+    color:#2185D0!important
+}
+span.inverted.blue.project-pages-icon{
+    color:#54C8FF!important
+}
+span.inverted.bordered.blue.project-pages-icon,span.inverted.circular.blue.project-pages-icon{
+    background-color:#2185D0!important;
+    color:#FFF!important
+}
+span.violet.project-pages-icon{
+    color:#6435C9!important
+}
+span.inverted.violet.project-pages-icon{
+    color:#A291FB!important
+}
+span.inverted.bordered.violet.project-pages-icon,span.inverted.circular.violet.project-pages-icon{
+    background-color:#6435C9!important;
+    color:#FFF!important
+}
+span.purple.project-pages-icon{
+    color:#A333C8!important
+}
+span.inverted.purple.project-pages-icon{
+    color:#DC73FF!important
+}
+span.inverted.bordered.purple.project-pages-icon,span.inverted.circular.purple.project-pages-icon{
+    background-color:#A333C8!important;
+    color:#FFF!important
+}
+span.pink.project-pages-icon{
+    color:#E03997!important
+}
+span.inverted.pink.project-pages-icon{
+    color:#FF8EDF!important
+}
+span.inverted.bordered.pink.project-pages-icon,span.inverted.circular.pink.project-pages-icon{
+    background-color:#E03997!important;
+    color:#FFF!important
+}
+span.brown.project-pages-icon{
+    color:#A5673F!important
+}
+span.inverted.brown.project-pages-icon{
+    color:#D67C1C!important
+}
+span.inverted.bordered.brown.project-pages-icon,span.inverted.circular.brown.project-pages-icon{
+    background-color:#A5673F!important;
+    color:#FFF!important
+}
+span.grey.project-pages-icon{
+    color:#767676!important
+}
+span.inverted.grey.project-pages-icon{
+    color:#DCDDDE!important
+}
+span.inverted.bordered.grey.project-pages-icon,span.inverted.circular.grey.project-pages-icon{
+    background-color:#767676!important;
+    color:#FFF!important
+}
+span.black.project-pages-icon{
+    color:#1B1C1D!important
+}
+span.inverted.black.project-pages-icon{
+    color:#545454!important
+}
+span.inverted.bordered.black.project-pages-icon,span.inverted.circular.black.project-pages-icon{
+    background-color:#1B1C1D!important;
+    color:#FFF!important
+}
+
+
+// Status labels (timeline)
+
+.project-pages-status {
+    display:block;
+    width: 1.18em;
+    height: 1em;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.project-pages-status.right.floated {
+
+    position: absolute;
+    top: 1px;
+    right: 1px;
+
+}
+.project-pages-status, .project-pages-statuss {
+    //font-size: 1.8em;
+}
+.bordered.project-pages-status{
+    line-height:1;
+    vertical-align:baseline;
+    width:2em;
+    height:2em;
+    padding:.5em .41em!important;
+    box-shadow:0 0 0 .1em rgba(0,0,0,.1) inset
+}
+.bordered.inverted.project-pages-status{
+    border:none;
+    box-shadow:none
+}
+.bordered.project-pages-status,.circular.project-pages-status{
+    background-color:#1B1C1D!important;
+    background-color:#FFF!important
+}
+.project-pages-status{
+    background-color:#FFF
+}
+.red.project-pages-status{
+    background-color:#DB2828!important
+}
+.red.project-pages-status{
+    background-color:#FF695E!important
+}
+.bordered.red.project-pages-status,.circular.red.project-pages-status{
+    background-color:#DB2828!important;
+    background-color:#FFF!important
+}
+.orange.project-pages-status{
+    background-color:#F2711C!important
+}
+.orange.project-pages-status{
+    background-color:#FF851B!important
+}
+.bordered.orange.project-pages-status,.circular.orange.project-pages-status{
+    background-color:#F2711C!important;
+    background-color:#FFF!important
+}
+.yellow.project-pages-status{
+    background-color:#FBBD08!important
+}
+.yellow.project-pages-status{
+    background-color:#FFE21F!important
+}
+.bordered.yellow.project-pages-status,.circular.yellow.project-pages-status{
+    background-color:#FBBD08!important;
+    background-color:#FFF!important
+}
+.olive.project-pages-status{
+    background-color:#B5CC18!important
+}
+.olive.project-pages-status{
+    background-color:#D9E778!important
+}
+.bordered.olive.project-pages-status,.circular.olive.project-pages-status{
+    background-color:#B5CC18!important;
+    background-color:#FFF!important
+}
+.green.project-pages-status{
+    background-color:#21BA45!important
+}
+.green.project-pages-status{
+    background-color:#2ECC40!important
+}
+.bordered.green.project-pages-status,.circular.green.project-pages-status{
+    background-color:#21BA45!important;
+    background-color:#FFF!important
+}
+.teal.project-pages-status{
+    background-color:#00B5AD!important
+}
+.teal.project-pages-status{
+    background-color:#6DFFFF!important
+}
+.bordered.teal.project-pages-status,.circular.teal.project-pages-status{
+    background-color:#00B5AD!important;
+    background-color:#FFF!important
+}
+.blue.project-pages-status{
+    background-color:#2185D0!important
+}
+.blue.project-pages-status{
+    background-color:#54C8FF!important
+}
+.bordered.blue.project-pages-status,.circular.blue.project-pages-status{
+    background-color:#2185D0!important;
+    background-color:#FFF!important
+}
+.violet.project-pages-status{
+    background-color:#6435C9!important
+}
+.violet.project-pages-status{
+    background-color:#A291FB!important
+}
+.bordered.violet.project-pages-status,.circular.violet.project-pages-status{
+    background-color:#6435C9!important;
+    background-color:#FFF!important
+}
+.purple.project-pages-status{
+    background-color:#A333C8!important
+}
+.purple.project-pages-status{
+    background-color:#DC73FF!important
+}
+.bordered.purple.project-pages-status,.circular.purple.project-pages-status{
+    background-color:#A333C8!important;
+    background-color:#FFF!important
+}
+.pink.project-pages-status{
+    background-color:#E03997!important
+}
+.pink.project-pages-status{
+    background-color:#FF8EDF!important
+}
+.bordered.pink.project-pages-status,.circular.pink.project-pages-status{
+    background-color:#E03997!important;
+    background-color:#FFF!important
+}
+.brown.project-pages-status{
+    background-color:#A5673F!important
+}
+.brown.project-pages-status{
+    background-color:#D67C1C!important
+}
+.bordered.brown.project-pages-status,.circular.brown.project-pages-status{
+    background-color:#A5673F!important;
+    background-color:#FFF!important
+}
+.grey.project-pages-status{
+    background-color:#767676!important
+}
+.grey.project-pages-status{
+    background-color:#DCDDDE!important
+}
+.bordered.grey.project-pages-status,.circular.grey.project-pages-status{
+    background-color:#767676!important;
+    background-color:#FFF!important
+}
+.black.project-pages-status{
+    background-color:#1B1C1D!important
+}
+.black.project-pages-status{
+    background-color:#545454!important
+}
+.bordered.black.project-pages-status,.circular.black.project-pages-status{
+    background-color:#1B1C1D!important;
+    background-color:#FFF!important
+}
