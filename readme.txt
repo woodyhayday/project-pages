@@ -5,7 +5,7 @@ Tags: portfolio, wordpress portfolio plugin, showcase, portfolio template, clien
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 2.0.4
+Stable tag: 2.0.5
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,7 @@ Project Pages is for...
 - Entrepreneurs
 - Photographers
 - Software Engineers
+- Side-Project Machines
 
 
 ### 🛠️ Who made it?
@@ -152,6 +153,12 @@ Here you can read through the main features of Project Pages. If you think there
     * Continued support for Legacy Templates (PHP templates)
 
 
+### A note about block-ready themes
+
+Please note that if you are using an older theme which is not block-ready, you will not currently be able to use the new templates. This is because they take advantage of the block editor to allow you to customise your project pages. 
+
+I highly recommend you move to a block-ready theme, though I understand if you have a long-existing website you may not be able to do this quickly. Hence there is legacy support in Project Pages, ( so I'm sorry if the templates don't look as pretty as [the examples](https://projectpages.io/) but unfortunately this is only available to modern themes, as supporting non-block themes is outside of what I can do for this for free! )
+
 * 🧊 **Portfolio Blocks**
 
     * **Global Blocks:**
@@ -188,9 +195,9 @@ Here you can read through the main features of Project Pages. If you think there
 
 ### Project Pages - The online home for stuff you make
 
-Whether you make furniture, buildings, art, take photos, collect rare objects, or invent things: Project Pages is the perfect place to log and share your projects, (especially if you're already using WordPress).
+Whether you make furniture, buildings, art, take photos, collect rare objects, or invent things: Project Pages is the perfect place to log and share your side-projects, (especially if you're already using WordPress).
 
-Built by a maker, for makers. This is adaptable, simple (but not shallow!). Project Pages helps you take the essence of each thing you make, record the making process, and share it in the most constructive way possible.
+Built by a maker, for makers. This is an adaptable, simple (but not shallow!), Project Portfolio generator. Project Pages helps you take the essence of each thing you make, record the making process, and share it in the most constructive way possible.
 
 🛠️ [ProjectPages.io](https://projectpages.io) | 📚 [Docs](https://projectpages.io/docs) | 👊 [Join the Community](https://projectpages.io/join/)
 
@@ -215,7 +222,7 @@ If you aim is to document your work, for yourself and others then maybe put the 
 
 First up the thing 90% of people miss: MAKE A PORTFOLIO. So many people leave folders on their computers never to be shared publically.
 
-Once you've got your Project Pages up, sharing becomes a consistent part of the workflow. Consistently sharing your work will get it noticed.
+Once you've got your Project Pages displaying your recent work, sharing becomes a consistent part of the workflow. Consistently sharing your work will get it noticed.
 
 
 **How do I make my portfolio stand out?**
@@ -321,6 +328,9 @@ Please use the [support forum](https://wordpress.org/support/plugin/project-page
 8. User Feedback from Product Hunt
 
 == Changelog ==
+
+= 2.0.5 - 06/12/2024 = 
+* Added: A further check and notice if user is on a non-block-ready theme, regarding templates
 
 = 2.0.4 - 07/10/2024 = 
 * Fixed bug with missing block build directory

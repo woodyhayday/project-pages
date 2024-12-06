@@ -3,7 +3,7 @@
 Plugin Name: Project Pages
 Plugin URI: https://projectpages.io
 Description: Project Pages is the simplest way to share your projects beautifully.
-Version: 2.0.4
+Version: 2.0.5
 Author: <a href="https://projectpages.io">Project Pages.io</a>
 */
 

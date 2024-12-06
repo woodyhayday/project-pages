@@ -208,6 +208,9 @@ function projectPages_page_settings(){
 	// pro flag
 	$pro_flag = apply_filters( 'project_pages_pro_flag', false );
 
+	// theme block based notice
+	$theme_is_block_based = wp_is_block_theme();
+
 	// Vue App out
 
 	?>
@@ -228,7 +231,8 @@ function projectPages_page_settings(){
 				'new_project_url' => get_admin_url( null, 'post-new.php?post_type=projectpage' ),
 				'welcome_url' => get_admin_url( null, 'options.php?page=projectpages' ),
 				'nonce' => wp_create_nonce( 'pp-settings-edit' ),
-				'pro_flag' => $pro_flag
+				'pro_flag' => $pro_flag,
+				'theme_is_block_based' => $theme_is_block_based
 			)
 		); ?>;
 	</script>

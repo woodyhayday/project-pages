@@ -43,6 +43,15 @@ function projectPages_settings_explainers_extend(){
 		// Templating
 		$html = '<div id="project-page-settings-template-info">';
 
+			if ( function_exists('wp_is_block_theme') ){
+
+				if ( !wp_is_block_theme() ){
+						$html .= '<div><span class="dashicons dashicons-marker"></span> ' . __( 'Your theme is not block-ready, you will not be able to use the modern templates unless you move to a block-ready theme.', 'projectpages' ) .' <a href="'.esc_url( ppurl('kb-not-block-based') ) . '" target="_blank" class="button button-primary">Read More</a></div>';					
+				} else {
+						$html .= '<div><span class="dashicons dashicons-yes-alt success"></span> ' . __( 'Your theme is block-ready, you are able to use the modern templates.', 'projectpages' ) . '</div>';					
+				}
+
+			}
 			if ( is_child_theme() ){
 
 				$html .= '<div><span class="dashicons dashicons-yes-alt success"></span> ' . __( 'Child theme ready for templates', 'projectpages' ) .'</div>';

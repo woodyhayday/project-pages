@@ -62,7 +62,6 @@ function projectPages_init_blocks(){
       }
 
     }
-
     register_block_type( PROJECTPAGES_PATH . 'blocks/build/' . $dir, $args );
   }
   
