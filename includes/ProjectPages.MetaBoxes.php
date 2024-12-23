@@ -576,9 +576,16 @@ function projectPages_submit_metabox( $post, $args = array() ) {
                             <?php foreach ($projectPageStatuses as $statusKey => $status){
                                 echo '<option value="'.$statusKey.'"';
                                 if (isset($projectPageMeta['status']) && $projectPageMeta['status'] == $statusKey) echo ' selected="selected"';
-                                echo '><div class="statusCircle '.$status[1].'"></div>'.$status[0].'</option>';
-                            } ?>
+                                echo '>'.$status[0].'</option>'; // <div class="statusCircle '.$status[1].'"></div>
+                            }                             
+                            ?>
                         </select>
+                        <?php
+                            // from 2.1 there's custom statuses in pro, so we need to catch situations where a status has been deleted
+                            if (isset($projectPageMeta['status']) && !array_key_exists($projectPageMeta['status'], $projectPageStatuses)) {
+                                echo '<div class="alert alert-warning">' . sprintf(__('Your original status (%s) is no longer available (Custom statuses have been changed). Please select a different status or edit your custom statuses.','projectpages'), ucfirst($projectPageMeta['status'])) . '</div>';
+                            }
+                        ?>
                     </td>
                 </tr>
 
@@ -1052,7 +1059,7 @@ function projectPages_submit_metabox( $post, $args = array() ) {
 
                       <div class="mb-3">
                         <label class="form-label"><?php _e( 'Log:', 'projectpages' ); ?></label>
-                        <?php wp_editor( '', 'project_page_add_log_body', array( 'height', 500 ) ); ?>
+                        <?php wp_editor( '', 'project_page_add_log_body', array( 'height', 500, 'tinymce' => true ) ); ?>
                       </div>
                   </div>
                   <div class="modal-footer">

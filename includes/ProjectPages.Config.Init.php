@@ -19,7 +19,7 @@
 /* ======================================================
   General storage :D
    ====================================================== */
-    global $projectPageStatuses;
+    global $projectPageStatuses, $projectPageDefaultStatuses;
     $projectPageStatuses = array(
 
     	// Hard typed for fun.
@@ -35,6 +35,8 @@
     	'evolved' => array(__('Evolved','projectpages'), 'violet')
 
     );
+	// clone it into defaults
+	$projectPageDefaultStatuses = $projectPageStatuses;
 
     // permalink root structure: e.g. yourblog.com/projects/PROJECT
     // superceded by setting, see: projectPages_permalink_root()

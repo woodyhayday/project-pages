@@ -198,6 +198,22 @@ function projectPages_open_log_edit_modal( id ){
 
 	if ( log ){
 
+		var log_body = '';
+		if ( typeof log.body == 'string' ){
+			log_body = log.body;
+		}
+
+		var content;
+		var inputid = 'project_page_edit_log_body';
+		var editor = tinyMCE.get(inputid);
+		if (editor) {
+			// Ok, the active tab is Visual
+			content = editor.getContent();
+		} else {
+			// The active tab is HTML, so just query the textarea
+			content = jQuery('#'+inputid).val();
+		}
+
 		// fill in data
 		jQuery('#project-pages-edit-log-id').val( id );
 		jQuery('#project-pages-edit-log-title').val( log.title );
@@ -205,7 +221,11 @@ function projectPages_open_log_edit_modal( id ){
 		jQuery('#project-pages-edit-log-dashicon').val( log.icon );
 		dashiconsPickerChange( '#project-pages-edit-log-dashicon', log.icon );
 		//tinyMCE.activeEditor.setContent( projectPages_decodeHtml( log.body ) );
-		tinyMCE.get('project_page_edit_log_body').setContent( projectPages_decodeHtml( log.body ) );
+		if ( editor ){
+			editor.setContent( projectPages_decodeHtml( log_body ) );
+		} else {
+			jQuery('#project_page_edit_log_body').val( projectPages_decodeHtml( log_body ) );
+		}
 
 
 

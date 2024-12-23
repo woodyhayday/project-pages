@@ -3,9 +3,9 @@ Contributors: woodyhayday
 Donate link: https://www.woodyhayday.com
 Tags: portfolio, wordpress portfolio plugin, showcase, portfolio template, client work
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 2.0.5
+Stable tag: 2.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=K8gHLsrdgS4
 
 > [See all Project Page Portfolio Features](https://projectpages.io/#what-is-project-pages-wordpress-portfolio-plugin)
 
-🍻 **Now available:** PRO version - pay what you want: [Upgrade now](https://projectpages.io/pro)
+🍻 **Now available:** PRO version - with custom statuses!: [Upgrade now](https://projectpages.io/pro)
 
 ### 🧰 Is This a Portfolio Maker? A Portfolio Theme?
 
@@ -78,7 +78,7 @@ You can find all this in more detail on the [Getting Started guide](https://proj
 2. Click "Project Pages" from your WordPress admin bar
 3. Follow the "Steps to Project Pages Mastery" on the Welcome page
 4. Enjoy adding all of the things you've made!
-5. If you like it, pay what you want for the [PRO Version](https://projectpages.io/pro)
+5. If you like it, grab the [PRO Version](https://projectpages.io/pro)
 
 
 ### 🗺️ Project Page Features
@@ -105,7 +105,7 @@ Here you can read through the main features of Project Pages. If you think there
     * Works out-of-the-box
     * Helpful [docs](https://projectpages.io/docs/)
     * Regular updates
-    * **FREE!** I made this to give back. Enjoy it, share it if you like it 🖖 ([PRO Version](https://projectpages.io/pro) is 'pay what you want')
+    * **FREE!** I made this to give back. Enjoy it, share it if you like it 🖖 ([PRO Version](https://projectpages.io/pro))
 
 
 * 🆕 **New in 2.0!**
@@ -175,6 +175,9 @@ I highly recommend you move to a block-ready theme, though I understand if you h
 
 * 🌄 **[PRO Version](https://projectpages.io/pro)**
 
+    * **Custom Statuses:**
+        * Customise statuses for your projects
+        * Customise status labels and colours
     * **Awesome Automatic Share Image Generation**
         * Generate OG Meta images automatically
         * Choose from 25+ backgrounds
@@ -188,8 +191,8 @@ I highly recommend you move to a block-ready theme, though I understand if you h
         * Pre-written prompts to help you write up your projects
         * Individual prompts or prompt sets
         * Designed for makers, creators, artists, entrepreneurs
-    * **Pay What You Want**
-        * The PRO version is pay what you want. If it helps you out, or you like the concept, I appreciate your support.
+    * **PRO Project Pages**
+        * The PRO version includes extras that not everyone may need, but if it helps you out, or you like the concept, I appreciate your support.
         * [Get Pro](https://projectpages.io/pro)
 
 
@@ -238,7 +241,7 @@ Use Project Pages. Upload your Projects, give lots of context. Share consistentl
 
 **How much of this plugin is really 'free'?**
 
-The core is most of the code, and it'll always be free. It's totally usable, in fact it's epic, on it's own. I'm building a few extra features that I needed personally, and that users have asked for; these are available in the PRO version...but even that is [pay what you want](https://projectpages.io/pro), it's just there for you to support the plugin if it's valuable to you.
+The core is most of the code, and it'll always be free. It's totally usable, in fact it's epic, on it's own. I'm building a few extra features that I needed personally, and that users have asked for; these are available in the [PRO version](https://projectpages.io/pro), it's just there for you to support the plugin if it's valuable to you.
 
 
 
@@ -312,6 +315,10 @@ Select the 'Video Background' option, either in the singular project editor, or 
 
 With 2.0 I've brought the core of this plugin back to life and up to date. Since I first wrote this (7y ago), WordPress and it's ecosystem has evolved a fair bit. If there are any particular ideas/plugins/themes you want supported, I'm open to feature requests, which I'll do my best to roll in, where it'll benefit lots of people.
 
+= Can I customise statuses? = 
+
+Yes, in the [PRO version](https://projectpages.io/pro) you can customise statuses for your projects.
+
 = How do I give feedback? = 
 
 Please use the [support forum](https://wordpress.org/support/plugin/project-pages/) or one of the feedback forms built into the plugin.
@@ -328,6 +335,13 @@ Please use the [support forum](https://wordpress.org/support/plugin/project-page
 8. User Feedback from Product Hunt
 
 == Changelog ==
+
+= 2.1 - 19/12/2024 = 
+* Added: Support for custom statuses (available in PRO)
+* Fixed: Bug in log editor for a project
+
+= 2.0.6 - 06/12/2024 (pm) = 
+* Fixed: Naming bug in js includes
 
 = 2.0.5 - 06/12/2024 = 
 * Added: A further check and notice if user is on a non-block-ready theme, regarding templates

@@ -237,6 +237,16 @@
       // no cache, or force refresh, retrieve:
       $project = projectPages_getProject( $post->ID, $post, true, true );
 
+      // check for missing statuses (in pro we can now customise statuses which can mean we lose some)
+      if ( !isset( $project['status'] ) || !in_array( $project['status'], projectPages_statuses_all() ) ){
+
+        // default
+        $project['status'] = 'idea';
+        $project['status_label'] = __('Idea','projectpages');
+        $project['status_colour'] = 'teal';
+
+      }
+
       // cache it
       $project_pages_single = $project;
 

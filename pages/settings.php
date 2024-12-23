@@ -199,46 +199,56 @@ function projectPages_page_settings(){
 	} */
 
 
+	// pro custom statuses page
+	if ( isset( $_GET['pp_tab'] ) && $_GET['pp_tab'] == 'statuses' && function_exists('project_pages_settings_custom_statuses') ){
+
+		project_pages_settings_custom_statuses();
+
+	} else {
+
+		// normal settings page
 
 
-	// retrieve settings
-	$settings = $projectPages_Settings->getAll();
-	$settingsIndex = $projectPages_Settings->getValuesIndex( true, true );
+		// retrieve settings
+		$settings = $projectPages_Settings->getAll();
+		$settingsIndex = $projectPages_Settings->getValuesIndex( true, true );
 
-	// pro flag
-	$pro_flag = apply_filters( 'project_pages_pro_flag', false );
+		// pro flag
+		$pro_flag = apply_filters( 'project_pages_pro_flag', false );
 
-	// theme block based notice
-	$theme_is_block_based = wp_is_block_theme();
+		// theme block based notice
+		$theme_is_block_based = wp_is_block_theme();
 
-	// Vue App out
+		// Vue App out
 
-	?>
-	
-	<script>
-		var pp_settings = <?php echo json_encode($settingsIndex); ?>;
-		var pp_wp_settings = <?php echo json_encode(
-			array(
-				'version' => $projectPages_version,
-				'settings_slug' => $projectPages_slugs['settings'],
-				'settings_url' => get_admin_url( null, 'edit.php?post_type=projectpage&amp;page=projectpages-plugin-settings' ),
-				'home_url' => ppurl(),
-				'blog_root_url' => get_bloginfo('url'),
-				'feedback_url' => ppurl('feedback'),
-				'assets_url' => PROJECTPAGES_URL,
-				'upgrade_url' => ppurl('get-pro'),
-				'post_url' => 'edit.php?post_type=projectpage&page=' . $projectPages_slugs['settings'],
-				'new_project_url' => get_admin_url( null, 'post-new.php?post_type=projectpage' ),
-				'welcome_url' => get_admin_url( null, 'options.php?page=projectpages' ),
-				'nonce' => wp_create_nonce( 'pp-settings-edit' ),
-				'pro_flag' => $pro_flag,
-				'theme_is_block_based' => $theme_is_block_based
-			)
-		); ?>;
-	</script>
+		?>
+		
+		<script>
+			var pp_settings = <?php echo json_encode($settingsIndex); ?>;
+			var pp_wp_settings = <?php echo json_encode(
+				array(
+					'version' => $projectPages_version,
+					'settings_slug' => $projectPages_slugs['settings'],
+					'settings_url' => get_admin_url( null, 'edit.php?post_type=projectpage&amp;page=projectpages-plugin-settings' ),
+					'home_url' => ppurl(),
+					'blog_root_url' => get_bloginfo('url'),
+					'feedback_url' => ppurl('feedback'),
+					'assets_url' => PROJECTPAGES_URL,
+					'upgrade_url' => ppurl('get-pro'),
+					'post_url' => 'edit.php?post_type=projectpage&page=' . $projectPages_slugs['settings'],
+					'new_project_url' => get_admin_url( null, 'post-new.php?post_type=projectpage' ),
+					'welcome_url' => get_admin_url( null, 'options.php?page=projectpages' ),
+					'nonce' => wp_create_nonce( 'pp-settings-edit' ),
+					'pro_flag' => $pro_flag,
+					'theme_is_block_based' => $theme_is_block_based
+				)
+			); ?>;
+		</script>
 
-	<div id="pp-settings-app"></div>
+		<div id="pp-settings-app"></div>
 
-	<?php
+		<?php
+
+	}
 
 }

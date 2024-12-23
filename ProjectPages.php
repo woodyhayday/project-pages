@@ -3,7 +3,7 @@
 Plugin Name: Project Pages
 Plugin URI: https://projectpages.io
 Description: Project Pages is the simplest way to share your projects beautifully.
-Version: 2.0.5
+Version: 2.1
 Author: <a href="https://projectpages.io">Project Pages.io</a>
 */
 
@@ -408,6 +408,8 @@ function projectPages_admin_menu() {
     $project_pages_settings_menu_item = add_submenu_page( 'edit.php?post_type=projectpage', 'Project Pages', 'Settings', 'manage_options', $projectPages_slugs['settings'], 'projectPages_pages_settings' );
 	add_action( "admin_print_styles-{$project_pages_settings_menu_item}", 'projectPages_enqueue_settings_page' );
 
+	do_action('project_pages_admin_menu');
+
 }
 
 // put out any logic we need to admin header (menu rewrite url for js)
@@ -466,7 +468,7 @@ function projectPages_enqueue_editor_page() {
     wp_enqueue_script( 'bootstrap-datepicker-js', PROJECTPAGES_URL . 'js/libs/bootstrap-datepicker.min.js', array('jquery') );
 
 	wp_enqueue_style( 'projectpagesadmcss', 	plugins_url('/css/ProjectPages.Admin.min.css',__FILE__) );
-	wp_enqueue_script( 'pp_editor_js', PROJECTPAGES_URL . 'js/ProjectPages.Admin.min.js' );
+	wp_enqueue_script( 'pp_editor_js', PROJECTPAGES_URL . 'js/ProjectPages.admin.editor.min.js' );
 	//wp_enqueue_script( 'pp_editor_bs_select_js', PROJECTPAGES_URL . 'js/libs/bootstrap-select.js', array('jquery','bootstrap-js') );
 	//wp_enqueue_style( 'pp_editor_bs_select_css', 	plugins_url('/css/bootstrap-select.min.css',__FILE__) );
 	wp_enqueue_style( 'projectpagesspectrumcss', 	plugins_url('/css/libs/spectrum.css',__FILE__) );
@@ -1665,3 +1667,13 @@ function projectPages_enqueue_announcement_script($hook) {
 }
 add_action('admin_enqueue_scripts', 'projectPages_enqueue_announcement_script');
 add_action('wp_ajax_dismiss_announcement_pp', 'projectPages_dismiss_announcement');
+
+
+function pp_component($component, $args = array()){
+
+	global $pp_component_args;
+	$pp_component_args = $args;
+
+	include PROJECTPAGES_PATH . 'pages/components/' . $component . '.php';
+
+}
